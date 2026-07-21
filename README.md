@@ -1,15 +1,33 @@
 # Better Breath of the Wild (BOTW) Camera Overhaul
 
-> **The camera Nintendo built, refined without limits.**
+> The camera Nintendo built, refined without limits.
 
-![Better BOTW Camera Overhaul Banner](./assets/banner.png)
+---
 
-[![Status](https://img.shields.io/badge/status-in%20development-orange)]()
-[![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-blue)]()
+# Project Badges
+
+## Core Information
+
+[![Status](https://img.shields.io/badge/status-In%20Development-orange)]()
+[![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-green)]()
 [![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
-[![Mod Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
+[![Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
+[![License](https://img.shields.io/badge/license-To%20Be%20Determined-lightgrey)]()
 
-[![License](https://img.shields.io/badge/license-TBD-lightgrey)]()
+---
+
+## Development Information
+
+[![Mod Version](https://img.shields.io/badge/mod%20version-0.1.0-blue)]()
+[![Release Status](https://img.shields.io/badge/release-Pre--Release-orange)]()
+[![BOTW Version](https://img.shields.io/badge/BOTW%20Version-To%20Be%20Determined-blue)]()
+[![Mod Loader](https://img.shields.io/badge/mod%20loader-To%20Be%20Determined-purple)]()
+[![Documentation](https://img.shields.io/badge/documentation-In%20Development-yellow)]()
+[![Contributors](https://img.shields.io/badge/contributors-Welcome-brightgreen)]()
+[![Issues](https://img.shields.io/badge/issues-Welcome-red)]()
+[![Creator Tools](https://img.shields.io/badge/creator%20tools-Planned-purple)]()
+
+---
 
 # Roadmap Tags
 
@@ -22,7 +40,6 @@
 [![Community Requested](https://img.shields.io/badge/status-Community%20Requested-lightgrey)]()
 [![Prototype](https://img.shields.io/badge/status-Prototype-brightgreen)]()
 [![Deprecated](https://img.shields.io/badge/status-Deprecated-critical)]()
-
 # Roadmap Tags
 
 | Badge | Meaning |
