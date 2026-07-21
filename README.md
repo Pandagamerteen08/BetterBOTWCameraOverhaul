@@ -29,6 +29,19 @@
 
 ---
 
+# Technical Feature Badges
+
+[![Architecture](https://img.shields.io/badge/architecture-Modular-blue)]()
+[![Camera Framework](https://img.shields.io/badge/system-Camera%20Framework-purple)]()
+[![Configuration](https://img.shields.io/badge/configuration-JSON-yellow)]()
+[![Preset Support](https://img.shields.io/badge/presets-Supported-green)]()
+[![Profile Sharing](https://img.shields.io/badge/profiles-Import%2FExport-blue)]()
+[![Accessibility](https://img.shields.io/badge/accessibility-Supported-brightgreen)]()
+[![Photo Mode](https://img.shields.io/badge/photo%20mode-Planned-purple)]()
+[![Camera Studio](https://img.shields.io/badge/camera%20studio-Planned-purple)]()
+
+——-
+
 # Roadmap Tags
 
 [![Completed](https://img.shields.io/badge/status-Completed-success)]()
@@ -40,7 +53,8 @@
 [![Community Requested](https://img.shields.io/badge/status-Community%20Requested-lightgrey)]()
 [![Prototype](https://img.shields.io/badge/status-Prototype-brightgreen)]()
 [![Deprecated](https://img.shields.io/badge/status-Deprecated-critical)]()
-# Roadmap Tags
+
+## Roadmap Tag Meanings
 
 | Badge | Meaning |
 |---|---|
