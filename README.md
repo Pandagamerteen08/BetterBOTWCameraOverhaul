@@ -54,6 +54,22 @@
 | ⚪ Community Requested | Suggested by users/community |
 | ⚫ Deprecated | Removed or no longer supported |
 
+# Version Numbering
+
+Better BOTW Camera Overhaul uses semantic versioning:
+
+`Major.Minor.Patch`
+
+Example:
+
+`1.4.2`
+
+| Number | Meaning |
+|---|---|
+| Major | Large changes, breaking changes, major redesigns |
+| Minor | New features and improvements |
+| Patch | Bug fixes and small adjustments |
+
 ---
 
 # Overview
