@@ -9,6 +9,18 @@
 [![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
 [![Mod Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
 
+# Roadmap Tags
+
+[![Completed](https://img.shields.io/badge/status-Completed-success)]()
+[![In Development](https://img.shields.io/badge/status-In%20Development-orange)]()
+[![Planned](https://img.shields.io/badge/status-Planned-blue)]()
+[![Future Idea](https://img.shields.io/badge/status-Future%20Idea-purple)]()
+[![Experimental](https://img.shields.io/badge/status-Experimental-red)]()
+[![Research](https://img.shields.io/badge/status-Research-yellow)]()
+[![Community Requested](https://img.shields.io/badge/status-Community%20Requested-lightgrey)]()
+[![Prototype](https://img.shields.io/badge/status-Prototype-brightgreen)]()
+[![Deprecated](https://img.shields.io/badge/status-Deprecated-critical)]()
+
 ---
 
 # Overview
@@ -1863,3 +1875,1000 @@ The goal is to give players and creators the ability to experience Hyrule from t
 
 **The camera Nintendo built, refined without limits.**
 
+Project Ecosystem and Distribution Structure
+
+This explains why the mod and the creator tools are separate, expected file sizes, why the sizes are what they are, and how the entire ecosystem works.
+
+# Project Ecosystem and Distribution Structure
+
+Better Breath of the Wild (BOTW) Camera Overhaul is designed as more than a traditional game modification.
+
+The project is separated into multiple components to provide the best experience for different types of users.
+
+The main goal is to keep the Nintendo Switch mod lightweight, fast, and easy to install while providing advanced creator tools separately for users who want to create cinematic content.
+
+The project consists of three primary components:
+
+1. Better Breath of the Wild (BOTW) Camera Overhaul
+2. Better BOTW Camera Studio
+3. Better BOTW Cinematic Content Packs
+
+---
+
+# Component Overview
+
+Better BOTW Camera Ecosystem
+
+│
+├── Better BOTW Camera Overhaul
+│   └── Nintendo Switch Mod
+│
+├── Better BOTW Camera Studio
+│   └── Windows Creator Application
+│
+└── Better BOTW Cinematic Packs
+└── Optional Creator Assets
+
+---
+
+# Better Breath of the Wild (BOTW) Camera Overhaul
+
+## Nintendo Switch Mod
+
+The main product of this project.
+
+This is the modification installed directly onto the Nintendo Switch.
+
+It contains everything required to improve and customize Breath of the Wild's camera system.
+
+---
+
+# Included Features
+
+The Nintendo Switch mod includes:
+
+## Camera Framework
+
+The core system responsible for controlling the game's camera.
+
+Includes:
+
+- Camera state management
+- Camera transitions
+- Camera positioning
+- Camera rotation
+- Camera interpolation
+- Field of View control
+- Camera collision handling
+
+---
+
+## Camera State System
+
+Each gameplay situation has independent settings.
+
+Included states:
+
+- Exploration
+- Walking
+- Sprinting
+- Combat
+- Lock-on
+- Bow aiming
+- Horse riding
+- Climbing
+- Swimming
+- Gliding
+- Shield surfing
+- Rune abilities
+- First-person mode
+- Free camera mode
+
+---
+
+## Configuration System
+
+Stores and manages:
+
+- Camera settings
+- Profiles
+- Presets
+- Accessibility options
+- Controls
+
+---
+
+## User Interface
+
+Includes:
+
+- Settings menus
+- Camera customization screens
+- Profile management
+- Preview controls
+
+---
+
+## Presets
+
+Included camera profiles:
+
+- Vanilla+
+- Cinematic
+- Exploration
+- Combat
+- Accessibility
+- First Person
+- Screenshot
+
+---
+
+# Nintendo Switch Mod File Size
+
+The final size depends on the amount of included content.
+
+---
+
+# Minimum Build
+
+A smaller version containing:
+
+- Core camera framework
+- Basic settings
+- Configuration files
+
+Estimated size:
+
+5 MB - 10 MB
+
+---
+
+# Standard Release Build
+
+The recommended public release.
+
+Includes:
+
+- Complete camera system
+- Settings interface
+- Live Preview
+- Camera shake controls
+- Profiles
+- Presets
+- Accessibility features
+- Advanced camera modes
+
+Estimated size:
+
+15 MB - 35 MB
+
+---
+
+# Ultimate Release Build
+
+A maximum-feature release.
+
+Includes:
+
+- Everything from the standard release
+- Additional languages
+- More interface assets
+- Extra presets
+- Developer tools
+- Advanced debugging features
+- Additional camera effects
+
+Estimated size:
+
+35 MB - 75 MB
+
+---
+
+# Why The Switch Mod Remains Small
+
+Even though the project contains hundreds of customization options, the mod remains relatively small because most features are controlled through:
+
+- Code
+- Configuration values
+- Mathematical calculations
+- Runtime adjustments
+
+Camera systems do not require large textures, models, or audio files.
+
+The majority of the project is logic rather than traditional game assets.
+
+---
+
+# Better BOTW Camera Studio
+
+## Windows Creator Application
+
+Better BOTW Camera Studio is a separate desktop application designed for advanced users, content creators, and YouTubers.
+
+It allows users to create cinematic camera sequences without manually editing configuration files.
+
+The goal is to provide a professional camera creation workflow specifically designed for Breath of the Wild.
+
+---
+
+# Purpose
+
+The Camera Studio application allows creators to design:
+
+- Cinematic intros
+- Exploration sequences
+- Boss battle shots
+- Character showcases
+- Travel scenes
+- YouTube videos
+- Trailers
+- Machinima-style content
+
+---
+
+# Camera Studio Features
+
+## Timeline Editor
+
+Creators can create camera animations using a timeline.
+
+Example:
+
+00:00
+Camera begins behind Link
+
+00:05
+Camera slowly rotates around Link
+
+00:10
+Camera zooms outward
+
+00:15
+Camera focuses toward Hyrule Castle
+
+00:20
+Scene ends
+
+---
+
+# Keyframe System
+
+Creators can place camera keyframes.
+
+Keyframes control:
+
+- Position
+- Rotation
+- Distance
+- Height
+- FOV
+- Camera effects
+
+---
+
+# Camera Paths
+
+Users can create:
+
+- Straight movement paths
+- Curved camera paths
+- Orbit shots
+- Tracking shots
+- Cinematic flyovers
+
+---
+
+# Camera Effects
+
+Planned effects:
+
+- Smooth transitions
+- FOV animation
+- Camera shake control
+- Cinematic movement
+- Slow camera movement
+- Focus effects
+
+---
+
+# Export System
+
+Created scenes can be exported into a format recognized by Better BOTW Camera Overhaul.
+
+Example:
+
+My_Hyrule_Cinematic.scene
+
+The file contains:
+
+- Camera positions
+- Timeline information
+- Movement paths
+- Effects
+- Settings
+
+---
+
+# Better BOTW Camera Studio File Size
+
+Unlike the Nintendo Switch mod, the creator application is much larger because it contains:
+
+- User interface frameworks
+- Rendering tools
+- Timeline systems
+- Editor components
+- Documentation
+- Templates
+
+---
+
+# Basic Camera Studio
+
+Includes:
+
+- Scene creation
+- Keyframes
+- Exporting
+
+Estimated size:
+
+50 MB - 150 MB
+
+---
+
+# Full Creator Edition
+
+Includes:
+
+- Timeline editor
+- Camera path tools
+- Preview tools
+- Advanced effects
+- Templates
+- Tutorials
+- Asset management
+
+Estimated size:
+
+200 MB - 700 MB
+
+---
+
+# Better BOTW Cinematic Content Packs
+
+Optional downloads created for users who want additional content.
+
+These are not required for the camera overhaul.
+
+---
+
+# Examples
+
+Content packs may include:
+
+- Example cinematic scenes
+- Camera presets
+- Creator templates
+- Tutorial projects
+- Showcase videos
+
+---
+
+# Example Pack Structure
+
+CinematicPack/
+
+├── Scenes/
+│   ├── HyruleCastle.scene
+│   ├── MasterSword.scene
+│   └── DivineBeast.scene
+│
+├── Presets/
+│   ├── Cinematic.json
+│   └── Trailer.json
+│
+└── Documentation/
+
+---
+
+# Cinematic Pack Size
+
+Depends on included content.
+
+Small pack:
+
+50 MB - 100 MB
+
+Large creator pack:
+
+100 MB - 500 MB+
+
+---
+
+# Total Project Ecosystem Size
+
+If every component is installed:
+
+Better BOTW Camera Overhaul
++
+Better BOTW Camera Studio
++
+Cinematic Content Packs
+
+Expected total:
+
+500 MB - 1.5 GB
+
+---
+
+# Recommended Distribution Method
+
+The project should not be released as one giant download.
+
+Instead:
+
+---
+
+## Download 1
+
+# Better Breath of the Wild (BOTW) Camera Overhaul
+
+For:
+
+- Nintendo Switch players
+- Normal users
+- Gameplay customization
+
+Expected size:
+
+15 MB - 35 MB
+
+---
+
+## Download 2
+
+# Better BOTW Camera Studio
+
+For:
+
+- YouTubers
+- Content creators
+- Advanced users
+
+Expected size:
+
+200 MB - 700 MB
+
+---
+
+## Download 3
+
+# Better BOTW Cinematic Packs
+
+Optional.
+
+For:
+
+- Creators
+- Video makers
+- Community sharing
+
+Expected size:
+
+---
+
+# Recommended GitHub Repository Structure
+
+GitHub Organization
+
+│
+├── BetterBOTWCameraOverhaul
+│
+│   Nintendo Switch Mod
+│
+│
+├── BetterBOTWCameraStudio
+│
+│   Windows Creator Application
+│
+│
+└── BetterBOTWCinematicPacks
+│
+Approved Community Content
+
+---
+
+# Why Separate Projects?
+
+Keeping the projects separate provides several advantages:
+
+## Smaller Downloads
+
+Players only download what they need.
+
+---
+
+## Easier Development
+
+The Switch mod and Windows application can evolve independently.
+
+---
+
+## Better Compatibility
+
+Updates to the creator tools do not require updating the Switch mod.
+
+---
+
+## Better Community Support
+
+Users can report issues to the correct project.
+
+---
+
+# Final Vision
+
+Better Breath of the Wild (BOTW) Camera Overhaul is designed to become more than a camera modification.
+
+It is intended to become a complete camera ecosystem:
+
+A gameplay enhancement for players.
+
+A creative tool for content creators.
+
+A cinematic framework for the Breath of the Wild modding community.
+
+> The camera Nintendo built, refined without limits.
+
+1. Project Goals and Non-Goals
+
+You already explain what the mod does, but a professional project should also explain what it will not do.
+
+Example:
+
+# Project Goals and Non-Goals
+
+## Goals
+
+Better BOTW Camera Overhaul aims to:
+
+- Improve camera customization
+- Preserve the original Breath of the Wild feeling
+- Provide accessibility options
+- Enable cinematic creation
+- Create a flexible camera framework
+
+## Non-Goals
+
+This project does not aim to:
+
+- Replace Breath of the Wild's gameplay design
+- Change character movement
+- Modify combat mechanics
+- Replace animations
+- Alter the game's visual style
+
+2. Feature Comparison Table
+
+A table comparing:
+
+* Vanilla BOTW
+* Better BOTW Camera Overhaul
+
+Example:
+
+# Feature Comparison
+
+| Feature | Vanilla BOTW | Better Camera Overhaul |
+|---|---|---|
+| FOV Adjustment | ❌ | ✅ |
+| Camera Shake Toggle | ❌ | ✅ |
+| First Person Mode | ❌ | ✅ |
+| Free Camera | ❌ | ✅ |
+| Camera Profiles | ❌ | ✅ |
+| Live Preview | ❌ | ✅ |
+
+This immediately shows the value.
+
+⸻
+
+3. Installation Screenshots
+
+Add pictures showing:
+
+* SD card folder
+* Mod folder
+* Settings menu
+* Camera Studio interface
+
+People understand visuals faster than text.
+
+⸻
+
+4. Version Compatibility
+
+Very important for mods.
+
+Example:
+
+# Compatibility
+
+| Version | Supported |
+|-|-|
+| BOTW Switch latest version | ✅ |
+| Older versions | ⚠️ |
+| Modified game files | Depends |
+
+5. Save Safety Section
+
+Users will worry about losing progress.
+
+Add:
+
+# Save Safety
+
+Better BOTW Camera Overhaul does not modify:
+
+- Save data
+- Inventory
+- Quest progress
+- Player statistics
+
+However, always create backups before installing mods.
+
+6. Performance Section
+
+People will ask:
+
+“Will this lower FPS?”
+
+Add:
+
+# Performance
+
+The mod is designed to have minimal performance impact.
+
+Expected impact:
+
+Camera adjustments:
+Negligible
+
+UI:
+Small temporary impact
+
+Free Camera:
+May increase processing requirements depending on features enabled
+
+7. User Guide
+
+A complete manual.
+
+Example:
+
+# Getting Started
+
+1. Install the mod
+2. Launch Breath of the Wild
+3. Open Camera Settings
+4. Choose a preset
+5. Customize settings
+6. Save profile
+
+8. Camera Terminology Guide
+
+Because many users won’t understand camera terms.
+
+Explain:
+
+FOV
+
+Field of View.
+
+Controls how much of the world is visible.
+
+⸻
+
+Camera Distance
+
+How far the camera is behind Link.
+
+⸻
+
+Smoothing
+
+Controls how quickly the camera responds.
+
+⸻
+
+Interpolation
+
+Controls movement between camera positions.
+
+⸻
+
+9. Preset Library
+
+Create a community section.
+
+Example:
+
+# Approved Community Presets
+
+Featured:
+
+🎬 Hyrule Cinematic
+Created by:
+
+⚔️ Hardcore Combat
+Created by:
+
+🌄 Exploration+
+Created by:
+
+10. Bug Reporting Template
+
+Huge for GitHub.
+
+Example:
+
+## Bug Report
+
+Game Version:
+
+Mod Version:
+
+Description:
+
+Steps to reproduce:
+
+Expected behavior:
+
+Actual behavior:
+
+Screenshots:
+
+11. Feature Request Template
+
+Example:
+
+## Feature Request
+
+Feature:
+
+Why should it be added?
+
+How would it work?
+
+Possible issues:
+
+## Feature Request
+
+Feature:
+
+Why should it be added?
+
+How would it work?
+
+Possible issues:
+
+12. Camera Scripting System
+
+This is probably the biggest missing feature.
+
+Allow advanced users to write camera scripts.
+
+Example:
+
+{
+ "scene": "HyruleCastle",
+ "camera": [
+   {
+    "time":0,
+    "position":"behind_player"
+   },
+   {
+    "time":10,
+    "movement":"orbit"
+   }
+ ]
+}
+
+This would power YouTube cinematics.
+
+13. Camera Timeline Language
+
+For Camera Studio:
+
+Create your own file format.
+
+Example:
+
+.btws (Breath of the Wild Scene)
+
+Contains:
+
+* Timeline
+* Camera movement
+* Effects
+* Triggers
+
+⸻
+
+14. Camera Triggers
+
+Very powerful.
+
+Examples:
+
+“When Link enters area”
+
+→ Start cinematic camera.
+
+“When boss appears”
+
+→ Switch camera.
+
+“When gliding”
+
+→ Apply cinematic profile.
+
+⸻
+
+15. Photo Mode Expansion
+
+Breath of the Wild does not have a true photo mode.
+
+Add:
+
+* Time freeze
+* HUD removal
+* Camera movement
+* Filters
+* Depth of field
+* Focus controls
+
+⸻
+
+16. Depth of Field
+
+A cinematic feature.
+
+Options:
+
+* Focus distance
+* Blur strength
+* Background blur
+* Cinematic presets
+
+⸻
+
+17. Camera Effects
+
+Optional:
+
+* Letterboxing
+* Vignette
+* Color grading support
+* Film grain
+* Motion blur control
+
+(These may require more advanced rendering work.)
+
+⸻
+
+18. Multiplayer/Community Preset Sharing
+
+A website eventually.
+
+Something like:
+
+“Better BOTW Camera Hub”
+
+Users upload:
+
+* Profiles
+* Cinematics
+* Screenshots
+
+⸻
+
+19. Analytics (Optional)
+
+Not game analytics.
+
+Project analytics:
+
+* Most downloaded presets
+* Most popular settings
+* Community favorites
+
+⸻
+
+20. Accessibility Deep Dive
+
+This project actually has a strong accessibility angle.
+
+Add:
+
+* Motion sickness profiles
+* Low-motion mode
+* High visibility camera
+* Reduced acceleration
+* Static camera mode
+
+⸻
+
+21. Developer Documentation
+
+For contributors:
+
+Add:
+
+* How camera values work
+* How states are handled
+* How profiles are loaded
+* How to add new settings
+
+⸻
+
+22. Automated Testing
+
+Very professional.
+
+Examples:
+
+* Configuration validation
+* Profile loading tests
+* Compatibility tests
+
+⸻
+
+23. Localization System
+
+You already mentioned languages.
+
+Expand:
+
+Support:
+
+* English
+* Japanese
+* Spanish
+* French
+* German
+* Italian
+* Portuguese
+* Korean
+* Chinese
+
+⸻
+
+24. Mod Compatibility Database
+
+A page listing:
+
+Compatible:
+
+✅ Camera-independent mods
+
+Potential conflicts:
+
+⚠️ Movement mods
+
+⚠️ Animation mods
+
+⚠️ Rendering mods
+
+⸻
+
+25. Branding Assets
+
+Create:
+
+* Logo
+* Banner
+* Icon
+* Screenshots
+* Trailer
+
+A professional GitHub project benefits massively from presentation.
