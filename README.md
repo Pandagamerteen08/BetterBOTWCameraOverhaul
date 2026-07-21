@@ -446,3 +446,978 @@ Each can have:
 - Movement speed
 - Position offsets
 
+# Advanced Camera Modes
+
+Better Breath of the Wild (BOTW) Camera Overhaul includes advanced camera systems designed for players who want more than traditional third-person gameplay.
+
+These systems are optional and fully configurable.
+
+Players can continue using the standard Breath of the Wild camera, or enable completely new camera experiences.
+
+---
+
+# First-Person Mode
+
+## Experience Hyrule Through Link's Eyes
+
+First-Person Mode transforms Breath of the Wild into a completely different exploration experience.
+
+Instead of viewing Link from behind, the player experiences the world directly from Link's perspective.
+
+Designed for:
+
+- Immersive exploration
+- Roleplaying
+- Photography
+- Challenge runs
+- Accessibility customization
+
+---
+
+## First-Person Features
+
+### Camera Position
+
+Customize:
+
+- Eye height
+- Horizontal offset
+- Vertical offset
+- Head movement
+- Camera sway
+
+---
+
+### Visibility Options
+
+Players can choose what remains visible.
+
+Options:
+
+- Hide Link's head
+- Hide Link's body
+- Hide armor model
+- Hide equipped items
+- Show weapon
+- Hide weapon
+
+---
+
+### First-Person FOV
+
+Independent FOV settings.
+
+Example:
+
+First Person FOV:
+90°
+
+Exploration FOV:
+100°
+
+Combat FOV:
+85°
+
+---
+
+### Weapon Support
+
+First-person mode can optionally display:
+
+- Swords
+- Shields
+- Bows
+- Other equipped items
+
+---
+
+# Over-the-Shoulder Camera
+
+A modern third-person camera option inspired by newer action-adventure games.
+
+Instead of keeping Link centered, the camera can move to the player's preferred shoulder.
+
+---
+
+## Features
+
+Adjust:
+
+- Left shoulder
+- Right shoulder
+- Shoulder distance
+- Camera height
+- Offset strength
+- Combat positioning
+
+---
+
+## Dynamic Shoulder Switching
+
+Optional automatic switching.
+
+Examples:
+
+- Left shoulder while exploring
+- Right shoulder while aiming
+- Center camera during climbing
+
+---
+
+# Free Camera Mode
+
+A complete camera system designed for exploration, screenshots, and content creation.
+
+Free Camera allows the player to separate the camera from Link.
+
+---
+
+## Free Camera Features
+
+### Movement
+
+Controls:
+
+- Forward movement
+- Backward movement
+- Vertical movement
+- Horizontal movement
+- Rotation
+- Camera roll
+
+---
+
+### Speed Controls
+
+Adjust:
+
+- Slow movement
+- Normal movement
+- Fast movement
+- Cinematic movement
+
+---
+
+### Camera Tools
+
+Includes:
+
+- Position saving
+- Camera bookmarks
+- Restore previous position
+- Quick camera switching
+
+---
+
+# Screenshot Mode
+
+Designed for players who want professional-quality screenshots.
+
+---
+
+## Screenshot Features
+
+Options:
+
+- Hide HUD
+- Disable UI elements
+- Freeze camera
+- Adjust FOV
+- Adjust position
+- Adjust rotation
+- Cinematic presets
+
+---
+
+# Camera Studio Mode
+
+## Complete Camera Creation Tool
+
+Camera Studio is the advanced configuration environment included with Better BOTW Camera Overhaul.
+
+It combines:
+
+- Live preview
+- Camera editing
+- Preset creation
+- Testing tools
+
+into one system.
+
+---
+
+# Camera Studio Features
+
+## Real-Time Editing
+
+Change:
+
+- Distance
+- Height
+- FOV
+- Rotation
+- Smoothing
+- Camera shake
+
+and immediately see the result.
+
+---
+
+## Camera Comparison
+
+Compare:
+
+- Current settings
+- Vanilla settings
+- Saved presets
+
+---
+
+## Camera Profiles
+
+Create profiles for:
+
+- Exploration
+- Combat
+- Photography
+- Speedrunning
+- Accessibility
+
+---
+
+# Cinematic Camera Mode
+
+A camera mode focused on immersion.
+
+Designed for:
+
+- Exploration
+- Videos
+- Screenshots
+- Story moments
+
+---
+
+## Cinematic Features
+
+Includes:
+
+- Smooth camera movement
+- Adjustable camera lag
+- Dynamic FOV
+- Camera easing
+- Controlled camera transitions
+
+---
+
+# Settings Documentation
+
+Better Breath of the Wild Camera Overhaul provides a complete settings system.
+
+Every option is designed to be understandable while still allowing advanced customization.
+
+---
+
+# General Camera Settings
+
+## Camera Distance
+
+Controls how far the camera stays from Link.
+
+Options:
+
+- Close
+- Default
+- Far
+- Custom
+
+---
+
+## Camera Height
+
+Controls the vertical position of the camera.
+
+Higher values:
+
+- Increase visibility
+- Provide wider world awareness
+
+Lower values:
+
+- Create a more cinematic perspective
+
+---
+
+## Camera Offset
+
+Allows moving the camera away from the center position.
+
+Options:
+
+- Horizontal offset
+- Vertical offset
+- Shoulder offset
+
+---
+
+## Field of View
+
+Controls how much of the world is visible.
+
+Range:
+
+45° - 120°
+
+---
+
+## Camera Rotation Speed
+
+Controls how quickly the camera turns.
+
+Options:
+
+- Slow
+- Normal
+- Fast
+- Custom
+
+---
+
+## Camera Smoothing
+
+Controls movement smoothness.
+
+Options:
+
+- Instant
+- Low
+- Medium
+- High
+- Custom
+
+---
+
+# Dynamic Camera Settings
+
+## Dynamic FOV
+
+Allows the camera to automatically change FOV based on movement.
+
+Examples:
+
+Walking:
+
+70°
+
+Running:
+
+78°
+
+Gliding:
+
+95°
+
+---
+
+## Auto Center
+
+Controls automatic camera alignment.
+
+Options:
+
+- Always enabled
+- Combat only
+- Disabled
+- Custom delay
+
+---
+
+# Camera Collision Settings
+
+Controls how the camera reacts to objects.
+
+Options:
+
+- Collision strength
+- Minimum distance
+- Wall avoidance
+- Indoor behavior
+
+---
+
+# Camera Shake Settings
+
+Complete control over camera movement effects.
+
+Options:
+
+## Shake Mode
+
+- Vanilla
+- Reduced
+- Minimal
+- Disabled
+- Custom
+
+---
+
+## Individual Shake Controls
+
+Adjust:
+
+- Explosion shake
+- Damage shake
+- Attack shake
+- Environment shake
+- Ability shake
+- Cutscene shake
+
+---
+
+# Accessibility Settings
+
+Designed to improve comfort.
+
+Includes:
+
+- Disable camera shake
+- Reduce camera movement
+- Disable dynamic FOV
+- Reduce camera acceleration
+- Adjust sensitivity
+- Adjust deadzones
+- Invert X axis
+- Invert Y axis
+
+---
+
+# Live Preview System
+
+The Live Preview System allows players to modify camera settings while seeing the results immediately.
+
+---
+
+# How Live Preview Works
+
+When enabled:
+
+1. The player enters Camera Preview Mode.
+2. Current camera settings are displayed.
+3. Adjustments are applied instantly.
+4. Changes can be tested before saving.
+
+---
+
+# Safe Preview Environment
+
+To prevent interruptions, the preview system can optionally provide a protected testing environment.
+
+Features:
+
+- Player protection
+- No enemy interruptions
+- Safe camera testing
+- Easy return to gameplay
+
+---
+
+# Real-Time Preview Options
+
+Players can preview:
+
+- Camera distance
+- Camera height
+- FOV changes
+- Shoulder position
+- Smoothing
+- Rotation speed
+- Camera shake settings
+
+---
+
+# Applying Changes
+
+After testing:
+
+Options:
+
+- Save changes
+- Create a new profile
+- Reset changes
+- Restore vanilla values
+
+---
+
+# Restore Vanilla Defaults
+
+Every settings category includes a reset option.
+
+---
+
+## Confirmation Prompt
+
+Before resetting, the player must confirm:
+
+Are you sure you want to restore all camera settings to the vanilla default values?
+
+This will reset all custom camera settings, including:
+
+* Field of View
+* Camera distance
+* Camera position
+* Camera smoothing
+* Camera shake settings
+* Accessibility settings
+* Custom profiles
+
+This action cannot be undone.
+
+[Cancel] [Restore Vanilla Defaults]
+
+# Profiles and Presets
+
+Better Breath of the Wild (BOTW) Camera Overhaul includes a complete profile and preset system designed to make camera customization simple, shareable, and accessible.
+
+Players are not required to manually configure hundreds of individual options every time they want a different camera style.
+
+Instead, players can create, save, load, and manage complete camera profiles.
+
+---
+
+# Camera Profiles
+
+A camera profile stores a complete collection of camera settings.
+
+A profile can include:
+
+- General camera settings
+- Individual camera states
+- FOV settings
+- Distance settings
+- Height settings
+- Camera shake preferences
+- Accessibility settings
+- Control preferences
+- Advanced settings
+
+---
+
+# Profile Examples
+
+## Vanilla+ Profile
+
+Designed for players who want the original Breath of the Wild experience with improvements.
+
+Includes:
+
+- Original camera behavior
+- Improved collision
+- Optional camera shake controls
+- Better accessibility options
+- Minor smoothing improvements
+
+---
+
+## Exploration Profile
+
+Designed for discovering Hyrule.
+
+Features:
+
+- Increased camera distance
+- Slightly wider FOV
+- Smooth movement
+- Reduced camera shake
+- Cinematic transitions
+
+Recommended for:
+
+- Exploring the open world
+- Collecting materials
+- Traveling between locations
+
+---
+
+## Cinematic Profile
+
+Designed for screenshots, videos, and immersive gameplay.
+
+Features:
+
+- Increased camera smoothing
+- Wider FOV
+- More dramatic camera movement
+- Reduced UI interference
+- Cinematic transitions
+
+---
+
+## Combat Profile
+
+Designed for players who want better combat visibility.
+
+Features:
+
+- Faster camera rotation
+- Improved lock-on behavior
+- Better enemy framing
+- Reduced camera obstruction
+
+---
+
+## Accessibility Profile
+
+Designed for players who experience discomfort with camera movement.
+
+Features:
+
+- Camera shake disabled
+- Reduced movement acceleration
+- Reduced dynamic FOV
+- Smoother camera transitions
+
+---
+
+# Import and Export System
+
+Players can share their camera setups with other users.
+
+---
+
+## Export Profiles
+
+A player can export a profile into a portable configuration file.
+
+Example:
+
+My_Cinematic_Profile.json (name is customizable. The file will **ALWAYS end in .json)
+
+The file contains:
+
+- Camera values
+- Profile name
+- Description
+- Creation date
+- Version compatibility
+
+---
+
+## Import Profiles
+
+Players can import downloaded profiles.
+
+The mod will verify:
+
+- File integrity
+- Version compatibility
+- Missing settings
+
+---
+
+# Profile Management
+
+The profile menu includes:
+
+- Create profile
+- Load profile
+- Save profile
+- Rename profile
+- Duplicate profile
+- Delete profile
+- Import profile
+- Export profile
+- Restore defaults
+
+---
+
+# Automatic Backup System
+
+Optional automatic backups prevent accidental loss.
+
+Features:
+
+- Previous profile recovery
+- Backup before importing
+- Backup before resetting settings
+
+---
+
+# Preset Sharing
+
+Players can share presets through:
+
+- GitHub
+- Mod websites
+- Community forums
+- Discord communities
+
+Example:
+
+BetterBOTWCameraProfiles/
+
+├── Cinematic_Hyrule.json
+├── Combat_Master.json
+├── FirstPerson_Adventure.json
+└── VanillaPlus.json
+
+---
+
+# Installation
+
+## Supported Platform
+
+Better Breath of the Wild (BOTW) Camera Overhaul officially supports:
+
+- Nintendo Switch
+
+This project does not support Wii U.
+
+---
+
+# Requirements
+
+Before installing, users need:
+
+- A Nintendo Switch capable of running custom software
+- A supported mod loading environment
+- Breath of the Wild installed
+- Required dependencies listed by the release version
+
+---
+
+# Installation Overview
+
+The installation process depends on the final mod framework used.
+
+The mod is designed to be distributed as a Nintendo Switch-compatible modification package.
+
+A typical installation will involve:
+
+1. Downloading the latest release.
+2. Extracting the mod files.
+3. Copying the files to the correct location on the Switch SD card.
+4. Launching Breath of the Wild.
+5. Opening the camera settings menu.
+
+---
+
+# Mod Installation Structure
+
+The release package will follow a structure similar to:
+
+BetterBOTWCameraOverhaul/
+
+├── config/
+├── content/
+├── ui/
+├── presets/
+├── plugins/
+└── README.md
+
+---
+
+# Installation Notes
+
+Always create a backup before installing.
+
+Recommended backups:
+
+- Save files
+- Existing mods
+- Previous configuration files
+
+---
+
+# Compatibility
+
+Better BOTW Camera Overhaul is designed to work alongside other Breath of the Wild modifications whenever possible.
+
+However, conflicts may occur with mods that modify:
+
+- Camera behavior
+- Player movement
+- Animation systems
+- Rendering systems
+- Game memory locations
+
+---
+
+# Troubleshooting
+
+## Camera Settings Are Not Appearing
+
+Possible causes:
+
+- Incorrect installation location
+- Missing required files
+- Mod loader not detecting the mod
+
+Solutions:
+
+- Verify folder structure
+- Reinstall the latest version
+- Check compatibility requirements
+
+---
+
+## Camera Settings Reset
+
+Possible causes:
+
+- Configuration file corruption
+- Incorrect permissions
+- Failed profile import
+
+Solutions:
+
+- Restore backup
+- Reset configuration
+- Re-import profile
+
+---
+
+# Configuration Files
+
+Better Breath of the Wild (BOTW) Camera Overhaul uses organized configuration files to make settings easier to manage.
+
+Configuration files are designed to be:
+
+- Human readable
+- Easy to edit
+- Shareable
+- Version compatible
+
+---
+
+# Configuration Folder Structure
+
+config/
+
+├── camera.json
+├── controls.json
+├── accessibility.json
+├── profiles.json
+└── advanced.json
+
+---
+
+# camera.json
+
+Main camera configuration file.
+
+Controls:
+
+- Camera distance
+- Camera height
+- FOV
+- Rotation speed
+- Smoothing
+- Camera states
+
+Example:
+
+```json
+{
+  "walking": {
+    "distance": 6.5,
+    "height": 2.1,
+    "fov": 70,
+    "smoothing": true
+  },
+
+  "gliding": {
+    "distance": 10,
+    "height": 3,
+    "fov": 95
+  }
+}
+
+controls.json
+
+Controls camera-related inputs.
+
+Includes:
+
+* Camera mode switching
+* Free camera controls
+* Profile switching
+* Preview mode controls
+
+Example:
+
+{
+  "open_camera_menu": "L + DPadDown",
+  "free_camera": "L + R3",
+  "restore_camera": "L + DPadUp"
+}
+
+accessibility.json
+
+Controls comfort settings.
+
+Includes:
+
+* Camera shake
+* Motion reduction
+* FOV limits
+* Sensitivity adjustments
+
+Example:
+
+{
+  "cameraShake": false,
+  "dynamicFOV": true,
+  "motionReduction": true
+}
+
+profiles.json
+
+Stores saved camera profiles.
+
+Contains:
+
+* Profile names
+* Saved settings
+* Version information
+* Metadata
+
+Example:
+
+{
+  "profiles": [
+    {
+      "name": "Cinematic Hyrule",
+      "type": "custom"
+    }
+  ]
+}
+
+advanced.json
+
+Contains expert-level settings.
+
+Designed for advanced users and developers.
+
+Includes:
+
+* Debug options
+* Experimental features
+* Advanced interpolation
+* Camera behavior tuning
+
+⸻
+
+Configuration Safety
+
+The mod includes protection against:
+
+* Invalid values
+* Broken profiles
+* Missing settings
+
+If a configuration file becomes invalid, the mod can:
+
+* Restore the previous backup
+* Load safe defaults
+* Notify the player
+
