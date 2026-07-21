@@ -1581,3 +1581,285 @@ Planned features:
 # Example Cinematic Workflow
 
 A creator could create:
+
+Scene:
+Opening Shot
+
+Timeline:
+
+0 seconds:
+Camera behind Link
+
+5 seconds:
+Camera slowly rotates
+
+10 seconds:
+Camera zooms outward
+
+15 seconds:
+FOV increases
+
+20 seconds:
+Camera focuses on Hyrule Castle
+
+The final file could then be imported into Better BOTW Camera Overhaul.
+
+---
+
+# Roadmap
+
+The roadmap represents planned development goals.
+
+Features may change based on technical limitations and community feedback.
+
+---
+
+# Phase 1 - Core Camera Framework
+
+Status:
+Planned
+
+Goals:
+
+- Basic camera control
+- Camera settings
+- Configuration system
+- Vanilla camera preservation
+
+---
+
+# Phase 2 - Camera Customization
+
+Goals:
+
+- Individual camera states
+- FOV controls
+- Camera distance settings
+- Camera height settings
+- Collision improvements
+
+---
+
+# Phase 3 - Accessibility Improvements
+
+Goals:
+
+- Camera shake removal
+- Motion reduction
+- Sensitivity controls
+- Accessibility presets
+
+---
+
+# Phase 4 - Advanced Camera Modes
+
+Goals:
+
+- First-person mode
+- Over-the-shoulder mode
+- Free camera
+- Screenshot mode
+
+---
+
+# Phase 5 - Camera Studio
+
+## Creator Tools Update
+
+Planned Windows application.
+
+Features:
+
+- Timeline editor
+- Cinematic scene creation
+- Camera animation
+- Export system
+- YouTube creator workflow
+
+---
+
+# Phase 6 - Community Features
+
+Potential future features:
+
+- Online preset library
+- Community camera profiles
+- Featured cinematics
+- Creator showcase
+
+---
+
+# Frequently Asked Questions
+
+## Does this replace Breath of the Wild's original camera?
+
+No.
+
+The default settings are designed to preserve the original Breath of the Wild camera style.
+
+---
+
+## Can I keep the vanilla camera?
+
+Yes.
+
+The Vanilla+ preset keeps the original experience while adding improvements.
+
+---
+
+## Can I disable camera shake?
+
+Yes.
+
+Camera shake can be:
+
+- Disabled
+- Reduced
+- Customized
+
+---
+
+## Can I use this for screenshots?
+
+Yes.
+
+The mod includes:
+
+- Free camera
+- Screenshot mode
+- Cinematic settings
+
+---
+
+## Can I create YouTube videos with this?
+
+Yes.
+
+The planned Camera Studio application is specifically designed for creators who want cinematic scenes and camera sequences.
+
+---
+
+## Will my settings be lost?
+
+No.
+
+Profiles and configurations can be saved and backed up.
+
+---
+
+## Can I restore the original camera?
+
+Yes.
+
+The Restore Vanilla Defaults option returns all camera settings to Nintendo's original values.
+
+---
+
+# Known Issues
+
+Possible issues:
+
+- Conflicts with other camera modifications
+- Conflicts with mods changing player movement
+- Experimental features may have limitations
+
+---
+
+# Troubleshooting
+
+## The Camera Looks Incorrect
+
+Try:
+
+1. Open settings.
+2. Select Restore Vanilla Defaults.
+3. Restart the game.
+4. Apply your preferred preset.
+
+---
+
+## Imported Profile Does Not Work
+
+Possible causes:
+
+- Profile created for another version
+- Missing settings
+- Invalid configuration
+
+Solutions:
+
+- Update the mod.
+- Re-export the profile.
+- Use Vanilla+ preset.
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+Possible contribution areas:
+
+- Testing
+- Documentation
+- Presets
+- Translations
+- Feature suggestions
+- Development
+
+---
+
+# Credits
+
+## Development
+
+Better BOTW Camera Overhaul Team
+
+---
+
+## Special Thanks
+
+Thanks to:
+
+- Breath of the Wild modding community
+- Nintendo for creating Breath of the Wild
+- Open-source developers who created modding tools
+
+---
+
+# License
+
+License information will be added before release.
+
+---
+
+# Support
+
+For support:
+
+Please include:
+
+- Mod version
+- Game version
+- Installation method
+- Configuration files
+- Description of the issue
+
+---
+
+# Final Statement
+
+Better Breath of the Wild (BOTW) Camera Overhaul is built around one idea:
+
+> The camera Nintendo built, refined without limits.
+
+The goal is not to replace Breath of the Wild.
+
+The goal is to give players and creators the ability to experience Hyrule from their own perspective.
+
+---
+
+# Better Breath of the Wild (BOTW) Camera Overhaul
+
+**The camera Nintendo built, refined without limits.**
+
