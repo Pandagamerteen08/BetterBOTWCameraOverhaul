@@ -18,7 +18,7 @@
 
 ## Development Information
 
-[![Mod Version](https://img.shields.io/badge/mod%20version-0.1.0 - Pre Release-blue)]()
+[![Mod Version](https://img.shields.io/badge/mod%20version-0.1.0-Pre-Release-blue)]()
 [![Release Status](https://img.shields.io/badge/release-Pre--Release-orange)]()
 [![BOTW Version](https://img.shields.io/badge/BOTW%20Version-To%20Be%20Determined-blue)]()
 [![Mod Loader](https://img.shields.io/badge/mod%20loader-To%20Be%20Determined-purple)]()
