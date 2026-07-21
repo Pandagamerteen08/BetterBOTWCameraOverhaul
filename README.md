@@ -6,7 +6,7 @@
 
 [![Status](https://img.shields.io/badge/status-in%20development-orange)]()
 [![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-blue)]()
-[![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch%20%7C%20Wii%20U-red)]()
+[![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
 [![Mod Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
 
 ---
