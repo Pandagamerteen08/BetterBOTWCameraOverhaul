@@ -226,7 +226,7 @@ Example:
 
 | Statistic | Value |
 |---|---|
-| README Size | 2,900+ Lines |
+| README Size | 3,100+ Lines |
 | Supported Game | The Legend of Zelda: Breath of the Wild |
 | Supported Platform | Nintendo Switch |
 | Camera System | Custom Framework |
