@@ -1421,3 +1421,163 @@ If a configuration file becomes invalid, the mod can:
 * Load safe defaults
 * Notify the player
 
+# Technical Documentation
+
+This section is intended for developers, advanced users, and contributors.
+
+Better Breath of the Wild (BOTW) Camera Overhaul is designed as a modular camera framework rather than a collection of individual camera edits.
+
+The goal is to create a flexible system where every camera behavior can be modified independently while maintaining compatibility and stability.
+
+---
+
+# Mod Architecture
+
+The mod is divided into several major systems.
+
+BetterBOTWCameraOverhaul/
+
+├── Camera Core
+├── Camera States
+├── Settings System
+├── Profile System
+├── Preview System
+├── UI System
+├── Input System
+├── Accessibility System
+└── Developer Tools
+
+---
+
+# Camera Core System
+
+The Camera Core is responsible for managing all camera behavior.
+
+Responsibilities:
+
+- Camera position
+- Camera rotation
+- Camera distance
+- Field of View
+- Camera transitions
+- Camera interpolation
+- Camera collision
+
+All camera states communicate through this central system.
+
+---
+
+# Camera State System
+
+Instead of one universal camera, the mod uses individual camera states.
+
+Example:
+
+Exploration Camera
+
+    ↓
+    
+Combat Camera
+
+    ↓
+    
+Aiming Camera
+
+    ↓
+    
+Glider Camera
+
+Each state has:
+
+- Independent settings
+- Independent behavior
+- Independent transitions
+
+---
+
+# Settings System
+
+The settings system handles:
+
+- Loading configuration files
+- Saving changes
+- Applying values in real time
+- Restoring defaults
+
+Features:
+
+- Automatic validation
+- Backup creation
+- Version checking
+
+---
+
+# Preview System Architecture
+
+The preview system allows real-time editing.
+
+Workflow:
+
+Change Setting
+
+↓
+
+Camera System Receives Update
+
+↓
+
+Camera Updates Immediately
+
+↓
+
+Player Reviews Result
+
+↓
+
+Save or Discard Changes
+
+---
+
+# Profile System
+
+Profiles store complete camera configurations.
+
+A profile includes:
+
+- Camera states
+- Accessibility settings
+- Controls
+- Advanced options
+
+Profiles are designed to be portable and shareable.
+
+---
+
+# Better BOTW Camera Studio
+
+## Planned Companion Application
+
+Better BOTW Camera Studio is a planned external Windows application designed for advanced camera creation.
+
+The goal is to allow creators to build cinematic scenes without manually editing configuration files.
+
+---
+
+# Camera Studio Features
+
+Planned features:
+
+- Timeline editor
+- Camera keyframes
+- Camera movement paths
+- Smooth transitions
+- FOV animation
+- Camera shake control
+- Scene previews
+- Export to BOTW Camera Overhaul format
+
+---
+
+# Example Cinematic Workflow
+
+A creator could create:
