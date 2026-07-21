@@ -9,6 +9,8 @@
 [![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
 [![Mod Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
 
+[![License](https://img.shields.io/badge/license-TBD-lightgrey)]()
+
 # Roadmap Tags
 
 [![Completed](https://img.shields.io/badge/status-Completed-success)]()
@@ -34,8 +36,6 @@
 | 🟩 Prototype | Early testing version |
 | ⚪ Community Requested | Suggested by users/community |
 | ⚫ Deprecated | Removed or no longer supported |
-
-[![License](https://img.shields.io/badge/license-TBD-lightgrey)]()
 
 ---
 
