@@ -21,6 +21,20 @@
 [![Prototype](https://img.shields.io/badge/status-Prototype-brightgreen)]()
 [![Deprecated](https://img.shields.io/badge/status-Deprecated-critical)]()
 
+# Roadmap Tags
+
+| Badge | Meaning |
+|---|---|
+| 🟢 Completed | Feature is finished and available |
+| 🟠 In Development | Currently being actively developed |
+| 🔵 Planned | Approved feature scheduled for development |
+| 🟣 Future Idea | Possible future feature with no confirmed timeline |
+| 🔴 Experimental | Available but may change or be unstable |
+| 🟡 Research | Currently being investigated |
+| 🟩 Prototype | Early testing version |
+| ⚪ Community Requested | Suggested by users/community |
+| ⚫ Deprecated | Removed or no longer supported |
+
 ---
 
 # Overview
