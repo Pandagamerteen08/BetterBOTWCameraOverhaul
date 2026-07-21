@@ -4,71 +4,171 @@
 
 ---
 
-# Project Badges
+# Additional Project Badges
 
-## Core Information
+## Compatibility Badges
 
-[![Status](https://img.shields.io/badge/status-In%20Development-orange)]()
-[![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-green)]()
-[![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
-[![Type](https://img.shields.io/badge/type-Camera%20Overhaul-purple)]()
-[![License](https://img.shields.io/badge/license-To%20Be%20Determined-lightgrey)]()
-
----
-
-## Development Information
-
-[![Mod Version](https://img.shields.io/badge/mod%20version-0.1.0-blue)]()
-[![Release Status](https://img.shields.io/badge/release-Pre--Release-orange)]()
-[![BOTW Version](https://img.shields.io/badge/BOTW%20Version-To%20Be%20Determined-blue)]()
-[![Mod Loader](https://img.shields.io/badge/mod%20loader-To%20Be%20Determined-purple)]()
-[![Documentation](https://img.shields.io/badge/documentation-In%20Development-yellow)]()
-[![Contributors](https://img.shields.io/badge/contributors-Welcome-brightgreen)]()
-[![Issues](https://img.shields.io/badge/issues-Welcome-red)]()
-[![Creator Tools](https://img.shields.io/badge/creator%20tools-Planned-purple)]()
+[![Nintendo Switch](https://img.shields.io/badge/Nintendo%20Switch-Supported-red)]()
+[![Wii U](https://img.shields.io/badge/Wii%20U-Not%20Supported-black)]()
+[![Emulator](https://img.shields.io/badge/emulator-Testing-yellow)]()
+[![Save Compatibility](https://img.shields.io/badge/save%20data-Safe-green)]()
+[![Mod Compatibility](https://img.shields.io/badge/mod%20compatibility-Testing-orange)]()
 
 ---
 
-# Technical Feature Badges
+## Performance Badges
 
-[![Architecture](https://img.shields.io/badge/architecture-Modular-blue)]()
-[![Camera Framework](https://img.shields.io/badge/system-Camera%20Framework-purple)]()
-[![Configuration](https://img.shields.io/badge/configuration-JSON-yellow)]()
-[![Preset Support](https://img.shields.io/badge/presets-Supported-green)]()
-[![Profile Sharing](https://img.shields.io/badge/profiles-Import%2FExport-blue)]()
-[![Accessibility](https://img.shields.io/badge/accessibility-Supported-brightgreen)]()
-[![Photo Mode](https://img.shields.io/badge/photo%20mode-Planned-purple)]()
-[![Camera Studio](https://img.shields.io/badge/camera%20studio-Planned-purple)]()
+[![Performance Impact](https://img.shields.io/badge/performance-Low-brightgreen)]()
+[![FPS Impact](https://img.shields.io/badge/FPS%20impact-Minimal-green)]()
+[![Optimization](https://img.shields.io/badge/optimization-Ongoing-orange)]()
+[![Memory Usage](https://img.shields.io/badge/memory%20usage-Optimized-blue)]()
 
 ---
 
-# Roadmap Tags
+## Development Environment Badges
 
-[![Completed](https://img.shields.io/badge/status-Completed-success)]()
-[![In Development](https://img.shields.io/badge/status-In%20Development-orange)]()
-[![Planned](https://img.shields.io/badge/status-Planned-blue)]()
-[![Future Idea](https://img.shields.io/badge/status-Future%20Idea-purple)]()
-[![Experimental](https://img.shields.io/badge/status-Experimental-red)]()
-[![Research](https://img.shields.io/badge/status-Research-yellow)]()
-[![Community Requested](https://img.shields.io/badge/status-Community%20Requested-lightgrey)]()
-[![Prototype](https://img.shields.io/badge/status-Prototype-brightgreen)]()
-[![Deprecated](https://img.shields.io/badge/status-Deprecated-critical)]()
+[![Primary Language](https://img.shields.io/badge/language-C%2B%2B-blue)]()
+[![Secondary Language](https://img.shields.io/badge/tools-Python-yellow)]()
+[![Configuration Format](https://img.shields.io/badge/configuration-JSON-yellow)]()
+[![Build System](https://img.shields.io/badge/build-Development-orange)]()
+[![Testing](https://img.shields.io/badge/testing-Planned-purple)]()
+[![Documentation](https://img.shields.io/badge/documentation-Active-blue)]()
 
-## Roadmap Tag Meanings
+---
 
-| Badge | Meaning |
+## Community Badges
+
+[![Community](https://img.shields.io/badge/community-Open-brightgreen)]()
+[![Preset Sharing](https://img.shields.io/badge/preset%20sharing-Supported-blue)]()
+[![Translations](https://img.shields.io/badge/translations-Planned-purple)]()
+[![Creator Support](https://img.shields.io/badge/creator%20support-Supported-green)]()
+[![Feature Requests](https://img.shields.io/badge/feature%20requests-Welcome-brightgreen)]()
+
+---
+
+## Creator Ecosystem Badges
+
+[![Camera Studio](https://img.shields.io/badge/Camera%20Studio-Planned-purple)]()
+[![Timeline Editor](https://img.shields.io/badge/timeline%20editor-Planned-purple)]()
+[![Camera Paths](https://img.shields.io/badge/camera%20paths-Planned-blue)]()
+[![Scene Export](https://img.shields.io/badge/scene%20export-Planned-blue)]()
+[![Cinematic Tools](https://img.shields.io/badge/cinematic%20tools-Planned-red)]()
+[![YouTube Creator Support](https://img.shields.io/badge/YouTube%20creator%20support-Planned-red)]()
+
+---
+
+# Project Overview Table
+
+| Category | Information |
 |---|---|
-| 🟢 Completed | Feature is finished and available |
-| 🟠 In Development | Currently being actively developed |
-| 🔵 Planned | Approved feature scheduled for development |
-| 🟣 Future Idea | Possible future feature with no confirmed timeline |
-| 🔴 Experimental | Available but may change or be unstable |
-| 🟡 Research | Currently being investigated |
-| 🟩 Prototype | Early testing version |
-| ⚪ Community Requested | Suggested by users/community |
-| ⚫ Deprecated | Removed or no longer supported |
+| Project Name | Better Breath of the Wild (BOTW) Camera Overhaul |
+| Game | The Legend of Zelda: Breath of the Wild |
+| Platform | Nintendo Switch |
+| Supported Platforms | Nintendo Switch only |
+| Unsupported Platforms | Wii U |
+| Project Type | Camera Framework / Camera Overhaul |
+| Current Status | In Development |
+| Current Version | 0.1.0 |
+| License | To Be Determined |
+| Documentation Status | In Development |
+| Creator Tools | Planned |
+| Community Support | Planned |
 
-# Version Numbering
+---
+
+# Platform Support Table
+
+| Platform | Support Status |
+|---|---|
+| Nintendo Switch | ✅ Supported |
+| Wii U | ❌ Not Supported |
+| Emulator | ⚠️ Testing Required |
+
+---
+
+# Feature Development Status Table
+
+| Feature | Status |
+|---|---|
+| FOV Adjustment | 🚧 In Development |
+| Camera Distance Adjustment | 🚧 In Development |
+| Camera Height Adjustment | 🚧 In Development |
+| Camera Profiles | 🚧 In Development |
+| Import/Export Profiles | 📅 Planned |
+| Live Camera Preview | 📅 Planned |
+| Camera Shake Removal | 🚧 In Development |
+| Camera Shake Customization | 📅 Planned |
+| First Person Mode | 📅 Planned |
+| Free Camera Mode | 📅 Planned |
+| Cinematic Camera Mode | 📅 Planned |
+| Camera Triggers | 💡 Future Idea |
+| Camera Studio | 💡 Future Idea |
+| Timeline Editor | 💡 Future Idea |
+| Scene Creation | 💡 Future Idea |
+| Community Preset Library | 💡 Future Idea |
+
+---
+
+# Camera State Support Table
+
+| Camera State | Customization |
+|---|---|
+| Walking | ✅ Supported |
+| Running | ✅ Supported |
+| Sprinting | ✅ Supported |
+| Horse Riding | ✅ Supported |
+| Climbing | ✅ Supported |
+| Swimming | ✅ Supported |
+| Gliding | ✅ Supported |
+| Shield Surfing | 📅 Planned |
+| Combat | ✅ Supported |
+| Lock-On Camera | 📅 Planned |
+| Bow Aiming | 📅 Planned |
+| Rune Abilities | 📅 Planned |
+| First Person | 📅 Planned |
+| Free Camera | 📅 Planned |
+
+---
+
+# Technical Architecture Table
+
+| System | Purpose |
+|---|---|
+| Camera Core | Main camera control system |
+| Camera States | Individual behavior for gameplay situations |
+| Configuration System | Stores user settings |
+| Profile System | Saves complete camera setups |
+| Preview System | Allows real-time adjustments |
+| Trigger System | Allows event-based camera changes |
+| Creator Tools | Allows cinematic scene creation |
+
+---
+
+# File Format Table
+
+| Extension | Purpose |
+|---|---|
+| `.json` | Camera settings and configuration files |
+| `.profile` | Saved camera profiles |
+| `.scene` | Cinematic camera sequences |
+| `.trigger` | Camera event triggers |
+| `.preset` | Shareable camera presets |
+
+---
+
+# Release Status Table
+
+| Release Stage | Meaning |
+|---|---|
+| Pre-Release | Early public testing. Features may be incomplete and frequently changed. |
+| Alpha | Core systems exist, but major features may still be missing or unstable. |
+| Beta | Feature complete or nearly complete. Focus is testing, optimization, and bug fixing. |
+| Release Candidate (RC) | Final testing before stable release. Only important fixes should be added. |
+| Stable | Fully released and ready for general users. |
+
+---
+
+# Version Numbering Table
 
 Better BOTW Camera Overhaul uses semantic versioning:
 
@@ -83,6 +183,73 @@ Example:
 | Major | Large changes, breaking changes, major redesigns |
 | Minor | New features and improvements |
 | Patch | Bug fixes and small adjustments |
+
+---
+
+# Performance Expectations Table
+
+| Area | Expected Impact |
+|---|---|
+| Normal Camera Adjustments | Minimal |
+| FOV Changes | Minimal |
+| Camera Profiles | Minimal |
+| Live Preview | Moderate while active |
+| Free Camera | Depends on enabled features |
+| Cinematic Tools | Higher resource usage |
+
+---
+
+# Community Contribution Table
+
+| Area | Contribution Type |
+|---|---|
+| Code | Camera systems and tools |
+| Testing | Bug reports and compatibility testing |
+| Documentation | Guides and translations |
+| Presets | Camera profiles and cinematic setups |
+| Feedback | Feature requests and improvements |
+
+---
+
+# Future Ecosystem Table
+
+| Project | Purpose |
+|---|---|
+| Better BOTW Camera Overhaul | Nintendo Switch camera modification |
+| Better BOTW Camera Studio | Windows cinematic editor |
+| Better BOTW Cinematic Packs | Community-created scenes and presets |
+| Better BOTW Camera Hub | Future online preset sharing platform |
+
+---
+
+# Project Statistics
+
+| Statistic | Value |
+|---|---|
+| README Size | 2,900+ Lines |
+| Supported Game | The Legend of Zelda: Breath of the Wild |
+| Supported Platform | Nintendo Switch |
+| Camera System | Custom Framework |
+| Profile System | Planned |
+| Creator Tools | Planned |
+| Cinematic System | Planned |
+| Community Tools | Planned |
+
+---
+
+## Roadmap Tag Meanings
+
+| Badge | Meaning |
+|---|---|
+| 🟢 Completed | Feature is finished and available |
+| 🟠 In Development | Currently being actively developed |
+| 🔵 Planned | Approved feature scheduled for development |
+| 🟣 Future Idea | Possible future feature with no confirmed timeline |
+| 🔴 Experimental | Available but may change or be unstable |
+| 🟡 Research | Currently being investigated |
+| 🟩 Prototype | Early testing version |
+| ⚪ Community Requested | Suggested by users/community |
+| ⚫ Deprecated | Removed or no longer supported |
 
 ---
 
