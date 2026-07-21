@@ -35,6 +35,8 @@
 | ⚪ Community Requested | Suggested by users/community |
 | ⚫ Deprecated | Removed or no longer supported |
 
+[![License](https://img.shields.io/badge/license-TBD-lightgrey)]()
+
 ---
 
 # Overview
