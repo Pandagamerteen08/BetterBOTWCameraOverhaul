@@ -1,0 +1,236 @@
+# ==========================================
+# Better BOTW Camera Overhaul
+# Git Ignore File
+# ==========================================
+
+
+# -----------------------------
+# Operating System Files
+# -----------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+
+# -----------------------------
+# IDE Files
+# -----------------------------
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Eclipse
+.project
+.classpath
+
+
+# -----------------------------
+# Build Output
+# -----------------------------
+
+bin/
+obj/
+build/
+dist/
+out/
+
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.o
+*.obj
+*.a
+*.lib
+
+
+# -----------------------------
+# Debug Files
+# -----------------------------
+
+*.log
+logs/
+
+debug/
+debug_build/
+
+crashdumps/
+
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+
+*.tmp
+*.temp
+*.bak
+*.backup
+
+~$*
+*.swp
+
+
+# -----------------------------
+# Compiled Mod Files
+# -----------------------------
+
+# Keep source code, ignore generated releases
+
+release/
+releases/
+builds/
+
+*.nro
+*.elf
+*.nso
+
+
+# -----------------------------
+# Nintendo Switch Files
+# -----------------------------
+
+# Avoid accidentally committing game dumps
+
+*.xci
+*.nsp
+*.nca
+*.tik
+*.cert
+
+# Extracted game content
+romfs/
+exefs/
+
+# Generated mod output
+mod_output/
+
+
+# -----------------------------
+# Emulator Files
+# -----------------------------
+
+# Ryujinx
+portable/
+logs/
+
+# Cemu
+mlc01/
+
+# General emulator folders
+shader_cache/
+cache/
+
+
+# -----------------------------
+# Reverse Engineering Files
+# -----------------------------
+
+# Large extracted binaries
+dump/
+dumps/
+
+*.bin
+
+# Memory dumps
+*.dmp
+
+# Disassembler projects
+*.idb
+*.i64
+*.id0
+*.id1
+*.nam
+
+
+# -----------------------------
+# Python Tools
+# -----------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.python-version
+.venv/
+venv/
+
+.pytest_cache/
+
+
+# -----------------------------
+# Node / Web UI
+# -----------------------------
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+
+
+# -----------------------------
+# Documentation Builds
+# -----------------------------
+
+_site/
+docs/_build/
+
+
+# -----------------------------
+# Personal Configurations
+# -----------------------------
+
+# Local settings
+*.local.json
+*.private.json
+
+# Personal camera profiles
+personal_profiles/
+
+# Development testing configs
+dev_config/
+
+
+# -----------------------------
+# Large Assets
+# -----------------------------
+
+# Temporary renders
+renders/
+exports/
+
+# Blender files (optional)
+*.blend1
+
+# Photoshop backups
+*.psd~
+
+
+# -----------------------------
+# Keep Important Empty Folders
+# -----------------------------
+
+!.gitkeep
