@@ -683,3 +683,121 @@ Possible features:
 Every category includes a restore option.
 
 Before resetting, the player receives:
+
+Are you sure you want to restore all camera settings to the vanilla default values?
+
+This will reset:
+
+* Field of View
+* Camera distance
+* Camera position
+* Camera smoothing
+* Camera shake settings
+* Accessibility settings
+* Custom profiles
+
+This action cannot be undone.
+
+[Cancel]
+
+[Restore Vanilla Defaults]
+
+---
+
+# Profiles and Presets
+
+Players can save complete camera configurations.
+
+A profile contains:
+
+- Camera states
+- FOV settings
+- Distance values
+- Accessibility options
+- Advanced settings
+
+---
+
+# Included Example Profiles
+
+## Vanilla+
+
+Preserves Nintendo's original style.
+
+Adds:
+
+- Better control
+- Accessibility options
+- Optional improvements
+
+---
+
+## Exploration
+
+Designed for exploring Hyrule.
+
+Features:
+
+- Wider FOV
+- Smooth movement
+- Reduced shake
+
+---
+
+## Cinematic
+
+Designed for videos and screenshots.
+
+Features:
+
+- Smooth transitions
+- Dramatic camera movement
+- Cinematic FOV
+
+---
+
+## Combat
+
+Designed for battles.
+
+Features:
+
+- Faster rotation
+- Better enemy visibility
+- Improved framing
+
+---
+
+## Accessibility
+
+Designed for comfort.
+
+Features:
+
+- Disabled shake
+- Reduced movement
+- Lower camera acceleration
+
+---
+
+# 9. Camera System Overview
+
+Better BOTW Camera Overhaul is built around a modular camera architecture.
+
+The system separates camera behavior into independent components.
+
+---
+
+# Architecture Overview
+
+BetterBOTWCameraOverhaul
+
+├── Camera Core
+├── Camera States
+├── Settings System
+├── Profile System
+├── Preview System
+├── Input System
+├── Accessibility System
+├── UI System
+└── Creator Tools
