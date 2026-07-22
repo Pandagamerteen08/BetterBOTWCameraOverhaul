@@ -2,7 +2,9 @@
 
 > The camera Nintendo built, refined without limits.
 
-![Better BOTW Camera Overhaul Banner](https://placeholder.com)
+![Better BOTW Camera Overhaul Banner](assets/icons/project/IMG_1371.jpeg)
+
+NOTE: This is a placeholder image
 
 ---
 
