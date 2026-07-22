@@ -1903,3 +1903,325 @@ Expected Performance Impact
 | Free Camera | Depends on enabled features |
 | Cinematic Tools | Higher usage |
 
+Optimization Goals
+
+The project prioritizes:
+
+* Stability
+* Low memory usage
+* Fast loading
+* Reliable camera transitions
+
+⸻
+
+18. Save Safety and Troubleshooting
+
+Save Safety
+
+Better BOTW Camera Overhaul does not modify:
+
+* Save files
+* Inventory
+* Quests
+* Player statistics
+* Progression data
+
+⸻
+
+Recommended Backups
+
+Before using any modification:
+
+Backup:
+
+* Save files
+* Existing mods
+* Configuration folders
+
+⸻
+
+Troubleshooting
+
+Camera Settings Do Not Appear
+
+Possible causes:
+
+* Incorrect installation
+* Missing files
+* Mod loader issue
+
+Solutions:
+
+1. Verify folder structure.
+2. Confirm requirements are installed.
+3. Reinstall the latest version.
+
+⸻
+
+Camera Settings Reset
+
+Possible causes:
+
+* Corrupted configuration
+* Failed import
+* Invalid values
+
+Solutions:
+
+1. Restore backup.
+2. Reset configuration.
+3. Import profile again.
+
+⸻
+
+Camera Behaves Incorrectly
+
+Try:
+
+1. Open camera settings.
+2. Select:
+
+Restore Vanilla Defaults
+
+3. Restart the game.
+4. Reapply settings.
+
+Imported Profile Does Not Work
+
+Possible causes:
+
+* Different mod version
+* Missing settings
+* Invalid file
+
+Solutions:
+
+* Update the mod.
+* Export the profile again.
+* Use a compatible preset.
+
+⸻
+
+Reporting Issues
+
+When creating a bug report, include:
+
+Mod Version:
+
+Game Version:
+
+Platform:
+
+Installed Mods:
+
+Description:
+
+Steps To Reproduce:
+
+Expected Behavior:
+
+Actual Behavior:
+
+Screenshots:
+
+Feature Requests
+
+For new feature suggestions:
+
+Include:
+
+Feature:
+
+Purpose:
+
+How It Should Work:
+
+Possible Problems:
+
+Additional Information:
+
+# 19. Developer Documentation
+
+This section is intended for developers, contributors, advanced users, and anyone interested in understanding how Better Breath of the Wild (BOTW) Camera Overhaul works internally.
+
+The project is designed as a modular camera framework instead of a collection of individual camera edits.
+
+The goal is to create a flexible, expandable, and maintainable camera system.
+
+---
+
+# Development Philosophy
+
+Better BOTW Camera Overhaul follows several core principles:
+
+## Modular Design
+
+Each major system is separated.
+
+Examples:
+
+- Camera Core
+- Camera States
+- Configuration
+- Profiles
+- User Interface
+- Preview System
+- Creator Tools
+
+This allows individual systems to be improved without rewriting the entire project.
+
+---
+
+## User Customization First
+
+Almost every camera behavior should be configurable.
+
+Developers should avoid creating hardcoded camera values whenever possible.
+
+Instead:
+
+Bad:
+
+CameraDistance = 8
+
+Preferred:
+
+CameraDistance = UserSetting.CameraDistance
+
+---
+
+## Preserve Vanilla Behavior
+
+The default configuration should always respect Breath of the Wild's original camera design.
+
+New features should enhance the experience rather than completely replace it.
+
+---
+
+# Developer Documentation Areas
+
+Future documentation will include:
+
+- Camera memory addresses
+- Camera calculations
+- State switching logic
+- Configuration handling
+- Profile structure
+- Debugging tools
+- Testing procedures
+
+---
+
+# 20. Technical Architecture
+
+Better BOTW Camera Overhaul is built around a layered architecture.
+
+---
+
+# System Overview
+
+BetterBOTWCameraOverhaul
+
+│
+├── Camera Core
+│
+├── Camera State Manager
+│
+├── Configuration Manager
+│
+├── Profile Manager
+│
+├── Preview Engine
+│
+├── Input Handler
+│
+├── UI Framework
+│
+├── Accessibility System
+│
+└── Creator Tools Interface
+
+---
+
+# Camera Core
+
+The Camera Core is the foundation of the entire project.
+
+Responsibilities:
+
+- Camera position
+- Camera rotation
+- Field of View
+- Camera distance
+- Camera collision
+- Camera transitions
+
+Every other camera system communicates through the Camera Core.
+
+---
+
+# Camera State Manager
+
+Breath of the Wild uses different camera behaviors depending on gameplay situations.
+
+The mod expands this into independent camera states.
+
+Examples:
+
+Exploration
+|
+↓
+Combat
+|
+↓
+Aiming
+|
+↓
+Gliding
+|
+↓
+Climbing
+
+Each state has:
+
+- Separate settings
+- Separate transitions
+- Separate behavior
+
+---
+
+# Configuration Manager
+
+Responsible for:
+
+- Loading settings
+- Saving settings
+- Validating values
+- Updating settings in real time
+
+Features:
+
+- Automatic backups
+- Version checking
+- Error recovery
+
+---
+
+# Profile Manager
+
+Handles:
+
+- Creating profiles
+- Loading profiles
+- Saving profiles
+- Importing profiles
+- Exporting profiles
+
+---
+
+# Preview Engine
+
+The Preview Engine allows live camera editing.
+
+Workflow:
+
