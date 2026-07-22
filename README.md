@@ -1584,3 +1584,281 @@ Example:
   }
 }
 
+controls.json
+
+Stores camera-related controls.
+
+Includes:
+
+* Opening camera menu
+* Free camera controls
+* Profile switching
+* Preview mode
+* Reset controls
+
+Example:
+
+{
+  "open_camera_menu": "L + DPadDown",
+  "free_camera": "L + R3",
+  "restore_camera": "L + DPadUp"
+}
+
+accessibility.json
+
+Controls comfort settings.
+
+Includes:
+
+* Camera shake
+* Motion reduction
+* FOV limits
+* Sensitivity settings
+* Movement adjustments
+
+Example:
+
+{
+  "cameraShake": false,
+  "dynamicFOV": true,
+  "motionReduction": true
+}
+
+profiles.json
+
+Stores saved camera profiles.
+
+Contains:
+
+* Profile names
+* Camera settings
+* Metadata
+* Version information
+
+Example:
+
+{
+  "profiles": [
+    {
+      "name": "Cinematic Hyrule",
+      "type": "custom"
+    }
+  ]
+}
+
+advanced.json
+
+Contains expert settings.
+
+Designed for:
+
+* Developers
+* Advanced users
+* Testing
+
+Includes:
+
+* Debug options
+* Experimental features
+* Advanced interpolation
+* Camera calculations
+
+⸻
+
+Configuration Safety
+
+The mod includes protection against:
+
+* Invalid values
+* Broken profiles
+* Corrupted settings
+* Missing options
+
+If a configuration file fails validation, the system can:
+
+1. Load safe defaults.
+2. Restore a backup.
+3. Notify the user.
+
+⸻
+
+15. File Formats
+
+Better BOTW Camera Overhaul uses several custom file types.
+
+Each format has a specific purpose.
+
+⸻
+
+Supported File Extensions
+
+| Extension | Purpose |
+| :--- | :--- |
+| `.json` | General configuration files |
+| `.profile` | Complete camera profiles |
+| `.preset` | Shareable camera presets |
+| `.scene` | Cinematic sequences |
+| `.trigger` | Automatic camera events |
+| `.btws` | Breath of the Wild Scene files |
+
+Profile Files
+
+Extension:
+
+.profile
+
+Stores:
+
+* Camera states
+* User preferences
+* Accessibility settings
+* Advanced options
+
+Example:
+
+Cinematic_Hyrule.profile
+
+Preset Files
+
+Extension:
+
+.preset
+
+Designed for quick sharing.
+
+Examples:
+
+Combat_Master.preset
+
+Exploration_Cinematic.preset
+
+Vanilla_Plus.preset
+
+Scene Files
+
+Extension:
+
+.scene
+
+Used by Camera Studio.
+
+Stores:
+
+* Timeline data
+* Camera paths
+* Keyframes
+* Effects
+
+Example:
+
+Hyrule_Castle_Showcase.scene
+
+Trigger Files
+
+Extension:
+
+.trigger
+
+Stores:
+
+* Event conditions
+* Camera changes
+* Automatic behavior
+
+Example:
+
+Boss_Cinematic.trigger
+
+16. Installation Guide
+
+Supported Platform
+
+Better BOTW Camera Overhaul officially supports:
+
+✅ Nintendo Switch
+
+⸻
+
+Requirements
+
+Before installation, users need:
+
+* A compatible Nintendo Switch setup
+* A supported mod environment
+* The Legend of Zelda: Breath of the Wild
+* Required dependencies listed on the release page
+
+⸻
+
+Installation Overview
+
+The exact installation method may change depending on the final mod framework.
+
+The general process:
+
+1. Download the latest release.
+2. Extract the files.
+3. Copy the mod files to the appropriate SD card location.
+4. Launch Breath of the Wild.
+5. Open the camera settings.
+6. Configure the camera.
+
+# Example Mod Structure
+
+BetterBOTWCameraOverhaul/
+
+├── config/
+│
+├── content/
+│
+├── ui/
+│
+├── presets/
+│
+├── plugins/
+│
+├── documentation/
+│
+└── README.md
+
+Installation Safety
+
+Before installing:
+
+Recommended backups:
+
+* Save data
+* Existing mods
+* Previous configurations
+
+⸻
+
+Updating The Mod
+
+When updating:
+
+1. Backup current profiles.
+2. Remove old files if required.
+3. Install the new version.
+4. Restore profiles.
+
+⸻
+
+17. Compatibility and Performance
+
+Mod Compatibility
+
+Better BOTW Camera Overhaul is designed to work alongside other modifications whenever possible.
+
+However, conflicts may occur with mods that modify:
+
+* Camera behavior
+* Player movement
+* Animations
+* Rendering
+* Memory addresses
+
+⸻
+
+Compatibility Table
+
