@@ -202,7 +202,7 @@ Currently unsupported:
 | Platform | Reason |
 |---|---|
 | Wii U | Future development planned |
-| PC Native Version | Not applicable |
+| PC Native Version | Future development planned |
 | Other Consoles | Not applicable |
 
 ---
@@ -1861,4 +1861,45 @@ However, conflicts may occur with mods that modify:
 ⸻
 
 Compatibility Table
+
+| Type | Compatibility |
+| --- | --- |
+| Texture Mods | Expected Compatible |
+| Audio Mods | Expected Compatible |
+| UI Mods | Usually Compatible |
+| Camera Mods | Possible Conflict |
+| Movement Mods | Possible Conflict |
+| Animation Mods | Possible Conflict |
+| Rendering Mods | Testing Required |
+
+Performance Philosophy
+
+The mod is designed to have minimal performance impact.
+
+Most camera features are calculated through:
+
+* Runtime values
+* Mathematics
+* Configuration data
+* Camera logic
+
+The mod does not require large:
+
+* Textures
+* Models
+* Audio files
+
+⸻
+
+Expected Performance Impact
+
+| Feature | Impact |
+| --- | --- |
+| FOV Changes | Minimal |
+| Camera Distance | Minimal |
+| Profiles | Minimal |
+| Camera Shake Options | Minimal |
+| Live Preview | Moderate while active |
+| Free Camera | Depends on enabled features |
+| Cinematic Tools | Higher usage |
 
