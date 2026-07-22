@@ -2225,3 +2225,1001 @@ The Preview Engine allows live camera editing.
 
 Workflow:
 
+User Changes Setting
+
+↓
+
+Configuration Manager Updates Value
+
+↓
+
+Camera Core Receives Update
+
+↓
+
+Camera Changes Immediately
+
+↓
+
+User Saves Or Discards
+
+---
+
+# Input Handler
+
+Controls:
+
+- Camera menu shortcuts
+- Free camera controls
+- Profile switching
+- Preview controls
+
+---
+
+# UI Framework
+
+Responsible for:
+
+- Settings menu
+- Camera Studio interface
+- Profile management
+- Notifications
+
+---
+
+# Accessibility System
+
+Handles:
+
+- Camera shake reduction
+- Motion reduction
+- Sensitivity adjustments
+- Comfort settings
+
+---
+
+# 21. Repository Structure
+
+The GitHub repository is organized to make development easier.
+
+Example:
+
+BetterBOTWCameraOverhaul/
+
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── INSTALLATION.md
+├── ROADMAP.md
+│
+├── src/
+│   ├── camera/
+│   ├── config/
+│   ├── profiles/
+│   ├── ui/
+│   ├── input/
+│   └── systems/
+│
+├── config/
+│   ├── default/
+│   └── examples/
+│
+├── presets/
+│   ├── vanilla/
+│   ├── cinematic/
+│   ├── combat/
+│   └── accessibility/
+│
+├── documentation/
+│   ├── developer/
+│   ├── user/
+│   └── technical/
+│
+├── tools/
+│   └── CameraStudio/
+│
+├── tests/
+│
+└── releases/
+
+---
+
+# Folder Explanation
+
+## src/
+
+Contains the main project code.
+
+---
+
+## camera/
+
+Camera-related systems.
+
+Includes:
+
+- Camera movement
+- Camera states
+- Camera calculations
+
+---
+
+## config/
+
+Configuration handling.
+
+Includes:
+
+- Loading
+- Saving
+- Validation
+
+---
+
+## profiles/
+
+Profile management.
+
+Includes:
+
+- Import
+- Export
+- Backup
+
+---
+
+## ui/
+
+User interface systems.
+
+Includes:
+
+- Menus
+- Settings screens
+- Notifications
+
+---
+
+## presets/
+
+Official and community presets.
+
+Examples:
+
+- Vanilla+
+- Cinematic
+- Combat
+- Accessibility
+
+---
+
+## documentation/
+
+All project documentation.
+
+---
+
+## tools/
+
+External applications.
+
+Example:
+
+BetterBOTWCameraStudio
+
+---
+
+# 22. Contribution Guidelines
+
+Better Breath of the Wild Camera Overhaul welcomes contributions from developers, testers, creators, and the community.
+
+---
+
+# Ways To Contribute
+
+## Code Contributions
+
+Examples:
+
+- Camera improvements
+- Performance improvements
+- Bug fixes
+- New systems
+
+---
+
+## Testing Contributions
+
+Help test:
+
+- New versions
+- Compatibility
+- Camera behavior
+- Performance
+
+---
+
+## Documentation Contributions
+
+Help improve:
+
+- Guides
+- Tutorials
+- Developer documentation
+
+---
+
+## Preset Contributions
+
+Create:
+
+- Camera profiles
+- Cinematic setups
+- Accessibility presets
+
+---
+
+## Translation Contributions
+
+Help support additional languages.
+
+Planned languages:
+
+- English
+- Japanese
+- Spanish
+- French
+- German
+- Italian
+- Portuguese
+- Korean
+- Chinese
+
+---
+
+# Contribution Rules
+
+Before contributing:
+
+1. Read the documentation.
+2. Check existing issues.
+3. Explain your changes.
+4. Test your changes.
+
+---
+
+# Pull Request Guidelines
+
+A good pull request should include:
+
+- Clear title
+- Description of changes
+- Testing information
+- Screenshots if applicable
+
+---
+
+# Issue Guidelines
+
+Bug reports should include:
+
+Version:
+
+Game Version:
+
+Platform:
+
+Description:
+
+Steps To Reproduce:
+
+Expected Result:
+
+Actual Result:
+
+Logs:
+
+---
+
+# 23. Roadmap
+
+The roadmap represents planned development goals.
+
+Features may change due to:
+
+- Technical limitations
+- Community feedback
+- Development priorities
+
+---
+
+# Phase 1
+
+## Core Camera Framework
+
+Status:
+
+🚧 In Development
+
+Goals:
+
+- Camera control system
+- Basic configuration
+- Vanilla preservation
+- Core camera states
+
+---
+
+# Phase 2
+
+## Camera Customization
+
+Status:
+
+📅 Planned
+
+Goals:
+
+- FOV adjustment
+- Camera distance
+- Camera height
+- Camera smoothing
+- Camera profiles
+
+---
+
+# Phase 3
+
+## Accessibility Update
+
+Status:
+
+📅 Planned
+
+Goals:
+
+- Camera shake removal
+- Motion reduction
+- Accessibility presets
+- Comfort settings
+
+---
+
+# Phase 4
+
+## Advanced Camera Modes
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+- First-person mode
+- Free camera
+- Over-the-shoulder camera
+- Screenshot mode
+
+---
+
+# Phase 5
+
+## Creator Tools
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+- Camera Studio
+- Timeline editor
+- Camera paths
+- Cinematic scenes
+
+---
+
+# Phase 6
+
+## Community Ecosystem
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+- Preset sharing
+- Community hub
+- Creator showcase
+- Online library
+
+---
+
+# Wii U Support Roadmap Note
+
+Current official support is:
+
+✅ Nintendo Switch
+
+❌ Wii U
+
+---
+
+Wii U support may be added in the future.
+
+The project owner, **Pandagamerteen8**, has decided that Wii U support will be considered after obtaining another Wii U console and completing the necessary modding setup.
+
+After a Wii U version is possible, compatibility testing and a separate Wii U release may be developed.
+
+---
+
+# 24. Release System and Versioning
+
+Better BOTW Camera Overhaul uses a structured release system.
+
+---
+
+# Release Stages
+
+| Stage | Meaning |
+|---|---|
+| Pre-Release | Early public testing. Features may be incomplete. |
+| Alpha | Core systems exist but major changes are expected. |
+| Beta | Feature complete testing phase focused on stability. |
+| Release Candidate (RC) | Final testing before stable release. |
+| Stable | Recommended public release. |
+
+---
+
+# Version Numbering
+
+The project follows:
+
+Major.Minor.Patch
+
+Example:
+
+1.4.2
+
+---
+
+# Version Table
+
+| Number | Meaning |
+|---|---|
+| Major | Large changes, redesigns, breaking changes |
+| Minor | New features and improvements |
+| Patch | Bug fixes and small adjustments |
+
+---
+
+# Example Releases
+
+## 0.1.0
+
+Initial development release.
+
+Includes:
+
+- Basic camera framework
+- Early configuration
+- Testing tools
+
+---
+
+## 0.5.0
+
+Feature preview.
+
+Includes:
+
+- Camera states
+- Profiles
+- Accessibility options
+
+---
+
+## 1.0.0
+
+First stable release.
+
+Includes:
+
+- Complete camera overhaul
+- Full settings system
+- Stable profiles
+- Documentation
+
+---
+
+# Release Notes
+
+Every release should include:
+
+- Added features
+- Fixed bugs
+- Changed systems
+- Known issues
+- Compatibility notes
+
+Example:
+
+Version 1.2.0
+
+Added:
+
+* First person camera
+* New profile system
+
+Fixed:
+
+* Camera reset bug
+
+Changed:
+
+* Improved smoothing system
+
+# 25. Project Header and Badges
+
+The top of the repository README provides quick information about the current state of Better Breath of the Wild (BOTW) Camera Overhaul.
+
+---
+
+# Better Breath of the Wild (BOTW) Camera Overhaul
+
+> The camera Nintendo built, refined without limits.
+
+---
+
+## Project Information
+
+[![Status](https://img.shields.io/badge/status-In%20Development-orange)]()
+[![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-green)]()
+[![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)]()
+[![Type](https://img.shields.io/badge/type-Camera%20Overhaul-blue)]()
+[![License](https://img.shields.io/badge/license-To%20Be%20Determined-lightgrey)]()
+
+---
+
+## Roadmap Status
+
+[![Completed](https://img.shields.io/badge/status-Completed-brightgreen)]()
+[![In Development](https://img.shields.io/badge/status-In%20Development-orange)]()
+[![Planned](https://img.shields.io/badge/status-Planned-blue)]()
+[![Future Idea](https://img.shields.io/badge/status-Future%20Idea-purple)]()
+[![Experimental](https://img.shields.io/badge/status-Experimental-red)]()
+[![Research](https://img.shields.io/badge/status-Research-yellow)]()
+[![Prototype](https://img.shields.io/badge/status-Prototype-lightblue)]()
+[![Community Requested](https://img.shields.io/badge/status-Community%20Requested-green)]()
+[![Deprecated](https://img.shields.io/badge/status-Deprecated-black)]()
+
+---
+
+## Technical Badges
+
+[![Architecture](https://img.shields.io/badge/architecture-Modular-blue)]()
+[![Camera Framework](https://img.shields.io/badge/system-Camera%20Framework-purple)]()
+[![Configuration](https://img.shields.io/badge/configuration-JSON-yellow)]()
+[![Profiles](https://img.shields.io/badge/profiles-Import%2FExport-green)]()
+[![Live Preview](https://img.shields.io/badge/live%20preview-Supported-brightgreen)]()
+[![Accessibility](https://img.shields.io/badge/accessibility-Supported-blue)]()
+
+---
+
+## Creator Tools
+
+[![Camera Studio](https://img.shields.io/badge/Camera%20Studio-Planned-purple)]()
+[![Timeline Editor](https://img.shields.io/badge/Timeline%20Editor-Planned-purple)]()
+[![Camera Paths](https://img.shields.io/badge/Camera%20Paths-Planned-blue)]()
+[![Cinematic Tools](https://img.shields.io/badge/Cinematic%20Tools-Planned-red)]()
+
+---
+
+# 26. Credits and Acknowledgements
+
+Better Breath of the Wild (BOTW) Camera Overhaul would not exist without the work of many communities and developers.
+
+---
+
+# Development Team
+
+## Lead Developer
+
+**Pandagamerteen8**
+
+Project owner and creator.
+
+Responsible for:
+
+- Project direction
+- Feature planning
+- Development decisions
+- Future platform expansion
+
+---
+
+# Special Thanks
+
+## Breath of the Wild Modding Community
+
+Thank you to the community members who continue researching, documenting, and expanding what is possible with Breath of the Wild modifications.
+
+---
+
+## Nintendo
+
+Thank you to Nintendo for creating:
+
+- The Legend of Zelda: Breath of the Wild
+- Hyrule's world design
+- The original camera system that inspired this project
+
+This project is intended as a fan-made enhancement and is not affiliated with Nintendo.
+
+---
+
+# Open Source Community
+
+Special appreciation for developers creating:
+
+- Modding tools
+- Documentation
+- Reverse engineering research
+- Development resources
+
+---
+
+# Community Contributors
+
+Future contributors will be listed here.
+
+Categories:
+
+- Developers
+- Testers
+- Translators
+- Preset creators
+- Documentation contributors
+
+---
+
+# 27. Frequently Asked Questions
+
+## What is Better BOTW Camera Overhaul?
+
+Better Breath of the Wild (BOTW) Camera Overhaul is a complete camera enhancement framework for The Legend of Zelda: Breath of the Wild.
+
+The goal is to improve customization while preserving the original feeling of Nintendo's camera design.
+
+---
+
+## Does this replace the original Breath of the Wild camera?
+
+No.
+
+The project is designed as an enhancement.
+
+The default configuration aims to feel like the original game while adding additional control.
+
+---
+
+## Can I restore the original camera?
+
+Yes.
+
+The mod includes:
+
+**Restore Vanilla Defaults**
+
+This restores:
+
+- Camera distance
+- Camera height
+- FOV
+- Smoothing
+- Camera shake settings
+- Advanced options
+
+Before resetting, the user receives a confirmation:
+
+> Are you sure you want to restore all camera settings to the vanilla default?
+
+---
+
+## Can I disable camera shake?
+
+Yes.
+
+Camera shake can be configured:
+
+- Vanilla
+- Reduced
+- Minimal
+- Disabled
+- Custom
+
+---
+
+## Does this add first person mode?
+
+Yes.
+
+First-person mode is planned as an advanced camera option.
+
+---
+
+## Does this include free camera?
+
+Yes.
+
+Free camera is planned for:
+
+- Photography
+- Exploration
+- Cinematics
+- Content creation
+
+---
+
+## Can I create YouTube videos with this?
+
+Yes.
+
+The planned Camera Studio application is designed specifically for:
+
+- Cinematic scenes
+- Trailers
+- Showcase videos
+- Machinima-style content
+
+---
+
+## Will this affect my save file?
+
+No.
+
+The project does not modify:
+
+- Save data
+- Inventory
+- Quests
+- Progression
+
+However, backups are always recommended.
+
+---
+
+## Will this work with other mods?
+
+Compatibility depends on what other modifications change.
+
+Possible conflicts:
+
+- Other camera mods
+- Movement modifications
+- Animation modifications
+
+---
+
+## Will there be Wii U support?
+
+Currently:
+
+Nintendo Switch:
+✅ Supported
+
+Wii U:
+❌ Not Supported
+
+Future Wii U support may be developed after the project owner obtains another Wii U console and completes the required testing environment.
+
+---
+
+# 28. Community Ecosystem
+
+Better BOTW Camera Overhaul is designed to grow beyond a single modification.
+
+The long-term goal is creating a complete camera ecosystem.
+
+---
+
+# Better BOTW Camera Hub
+
+Future community platform.
+
+Potential features:
+
+- Preset sharing
+- Camera profile downloads
+- Creator showcases
+- Tutorials
+- Community ratings
+
+---
+
+# Community Presets
+
+Users can create and share:
+
+- Exploration cameras
+- Combat cameras
+- Cinematic setups
+- Accessibility profiles
+
+Example:
+
+CommunityPresets/
+
+├── Cinematic_Hyrule.profile
+├── Hardcore_Combat.profile
+├── FirstPerson_Adventure.profile
+└── VanillaPlus.profile
+
+---
+
+# Creator Showcase
+
+A future area for:
+
+- YouTube videos
+- Screenshots
+- Cinematic projects
+- Camera demonstrations
+
+---
+
+# Community Requests
+
+Future features may be influenced by:
+
+- User feedback
+- Feature requests
+- Creator suggestions
+
+---
+
+# 29. Better BOTW Camera Studio Documentation
+
+## Planned Windows Creator Application
+
+Better BOTW Camera Studio is a companion application designed for advanced camera creation.
+
+It is separate from the Nintendo Switch mod.
+
+---
+
+# Purpose
+
+The application allows creators to design complex camera sequences without manually editing files.
+
+---
+
+# Main Features
+
+## Timeline Editor
+
+Create camera animations using a timeline.
+
+Supports:
+
+- Keyframes
+- Camera movement
+- Rotation
+- FOV changes
+- Effects
+
+---
+
+## Camera Path Editor
+
+Create:
+
+- Tracking shots
+- Orbit shots
+- Flyovers
+- Cinematic movement
+
+---
+
+## Scene Preview
+
+Preview:
+
+- Camera movement
+- Timing
+- Transitions
+- Effects
+
+---
+
+## Export System
+
+Projects can be exported into:
+
+.scene
+
+or
+
+.btws
+
+formats.
+
+---
+
+# Example Workflow
+
+1. Open Camera Studio.
+2. Create a new scene.
+3. Add camera keyframes.
+4. Adjust movement.
+5. Preview the sequence.
+6. Export the scene.
+7. Import into Better BOTW Camera Overhaul.
+
+---
+
+# Camera Studio Roadmap
+
+Future features:
+
+- Advanced timeline editing
+- Camera scripting
+- Trigger system
+- Depth of field controls
+- Cinematic presets
+- Creator templates
+
+---
+
+# 30. Final Project Statement
+
+# Better Breath of the Wild (BOTW) Camera Overhaul
+
+> The camera Nintendo built, refined without limits.
+
+---
+
+Breath of the Wild's camera was designed with careful consideration for exploration, combat, traversal, and immersion.
+
+This project does not attempt to erase that design.
+
+Instead, Better BOTW Camera Overhaul expands upon Nintendo's foundation by giving players and creators the ability to shape the camera around their own vision.
+
+Whether someone wants:
+
+- A closer adventure camera
+- A cinematic exploration experience
+- A comfortable accessibility setup
+- A first-person journey through Hyrule
+- A professional camera system for creating videos
+
+this project aims to provide the tools needed.
+
+---
+
+The camera should not limit the experience.
+
+The camera should enhance it.
+
+---
+
+## Project Vision
+
+Better BOTW Camera Overhaul aims to become:
+
+A gameplay enhancement.
+
+A creative tool.
+
+A cinematic framework.
+
+A community-driven camera ecosystem.
+
+---
+
+Thank you for supporting Better Breath of the Wild (BOTW) Camera Overhaul.
+
+**The camera Nintendo built, refined without limits.**
