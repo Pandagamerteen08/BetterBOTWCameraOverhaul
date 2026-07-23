@@ -2,7 +2,19 @@
 
 > The camera Nintendo built, refined without limits.
 
-![Better BOTW Camera Overhaul Banner](assets/icons/project/IMG_1371.jpeg)
+<p align="center">
+  <img src="assets/banners/github-banner.png" width="100%">
+</p>
+
+<p align="center">
+
+![Status](https://img.shields.io/badge/status-In%20Development-orange)
+![Game](https://img.shields.io/badge/game-The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild-blue)
+![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red)
+
+</p>
+
+> The camera Nintendo built, refined without limits.
 
 NOTE: This is a placeholder image
 
