@@ -1086,3 +1086,623 @@ Instead of using one universal camera configuration, Better BOTW Camera Overhaul
 
 Example:
 
+Exploration Camera
+
+↓
+
+Combat Camera
+
+↓
+
+Aiming Camera
+
+↓
+
+Gliding Camera
+
+↓
+
+Climbing Camera
+
+Each state can have:
+
+- Unique FOV
+- Unique distance
+- Unique height
+- Unique smoothing
+- Unique camera behavior
+
+---
+
+# Camera Transition System
+
+![Camera Transition Diagram](assets/diagrams/camera/camera-transitions.png)
+
+Camera transitions control how the camera moves between different states.
+
+Examples:
+
+Walking → Combat
+
+Combat → Bow Aiming
+
+Gliding → Landing
+
+Horse Riding → Exploration
+
+---
+
+Transition options include:
+
+- Instant switching
+- Smooth interpolation
+- Cinematic transitions
+- Custom transition speed
+
+---
+
+# Settings System
+
+![Configuration Manager Diagram](assets/diagrams/architecture/configuration-manager.png)
+
+Responsible for:
+
+- Loading settings
+- Saving settings
+- Applying changes
+- Restoring defaults
+
+Features:
+
+- Validation
+- Backup creation
+- Version checking
+- Error recovery
+
+---
+
+# Profile System
+
+![Profile System Diagram](assets/diagrams/architecture/profile-system.png)
+
+Stores complete user camera configurations.
+
+Supports:
+
+- Save
+- Load
+- Export
+- Import
+- Backup
+
+---
+
+Example profiles:
+
+Vanilla+
+Exploration
+Combat
+Cinematic
+Accessibility
+First Person
+Creator Mode
+
+---
+
+# Preview System
+
+![Preview Engine Diagram](assets/diagrams/architecture/preview-engine.png)
+
+The Preview System allows players to edit camera settings while instantly seeing the results.
+
+Workflow:
+
+Change Setting
+
+↓
+
+Configuration Manager Updates Value
+
+↓
+
+Camera Core Receives Update
+
+↓
+
+Camera Changes Immediately
+
+↓
+
+Player Saves Or Discards
+
+---
+
+# Live Preview Demonstration
+
+![Live Preview GIF](assets/gifs/ui/live-preview.gif)
+
+The preview system eliminates the need for:
+
+- Restarting the game
+- Reloading saves
+- Editing configuration files manually
+
+---
+
+# Design Principle
+
+The entire camera system follows one principle:
+
+> Every player should be able to create their ideal Breath of the Wild camera experience.
+
+---
+
+# 10. Advanced Camera Modes
+
+![Camera Modes Comparison](assets/screenshots/camera-modes/vanilla.png)
+
+Better Breath of the Wild (BOTW) Camera Overhaul includes multiple advanced camera modes designed for players who want more control than the standard third-person camera provides.
+
+All advanced camera modes are optional.
+
+The default Breath of the Wild camera experience remains available.
+
+---
+
+# First Person Mode
+
+![First Person Camera](assets/screenshots/camera-modes/first-person.png)
+
+## Experience Hyrule Through Link's Perspective
+
+First Person Mode allows players to explore Hyrule from Link's point of view.
+
+This transforms Breath of the Wild into a more immersive adventure experience while keeping the original gameplay systems intact.
+
+Designed for:
+
+- Exploration
+- Roleplaying
+- Photography
+- Challenge runs
+- Immersion
+- Accessibility
+
+---
+
+# First Person Features
+
+## Camera Position Customization
+
+Players can adjust:
+
+- Eye height
+- Vertical offset
+- Horizontal offset
+- Camera tilt
+- Head movement
+- Camera sway
+
+---
+
+# Visibility Options
+
+Players can choose how Link appears.
+
+Options:
+
+| Option | Description |
+|---|---|
+| Hide Head | Removes Link's head model |
+| Hide Body | Removes body visibility |
+| Hide Armor | Hides equipped armor |
+| Show Weapon | Displays equipped weapons |
+| Hide Weapon | Removes weapon visibility |
+
+---
+
+# First Person FOV
+
+First Person Mode has independent FOV settings.
+
+![FOV Comparison](assets/screenshots/comparisons/fov-comparison.png)
+
+Example:
+
+| Situation | FOV |
+|---|---:|
+| Exploration | 100° |
+| Combat | 90° |
+| Bow Aiming | 85° |
+
+---
+
+# First Person Weapon Support
+
+Future support may include:
+
+- Sword visibility
+- Shield visibility
+- Bow visibility
+- Weapon animations
+- Custom positioning
+
+---
+
+# Over-The-Shoulder Camera
+
+![Over Shoulder Camera](assets/screenshots/camera-modes/over-the-shoulder.png)
+
+A modern third-person camera option inspired by cinematic action games.
+
+Instead of keeping Link directly centered, the camera can move to the player's preferred shoulder position.
+
+---
+
+# Over-The-Shoulder Features
+
+Adjust:
+
+- Left shoulder camera
+- Right shoulder camera
+- Shoulder distance
+- Camera height
+- Offset strength
+- Combat positioning
+
+---
+
+# Dynamic Shoulder Switching
+
+Optional automatic behavior.
+
+Examples:
+
+Exploration:
+
+→ Right shoulder camera
+
+Aiming:
+
+→ Shoulder adjustment
+
+Combat:
+
+→ Center camera
+
+---
+
+# Free Camera Mode
+
+![Free Camera](assets/screenshots/camera-modes/free-camera.png)
+
+Free Camera separates the camera from Link.
+
+The player can move the camera independently.
+
+Designed for:
+
+- Screenshots
+- Videos
+- Exploration
+- Cinematic creation
+
+---
+
+# Free Camera Controls
+
+Movement:
+
+- Forward
+- Backward
+- Left
+- Right
+- Up
+- Down
+
+Rotation:
+
+- Pitch
+- Yaw
+- Roll
+
+---
+
+# Free Camera Demonstration
+
+![Free Camera Showcase](assets/videos/showcases/free-camera.mp4)
+
+---
+
+# Camera Bookmarks
+
+Players can save camera locations.
+
+Examples:
+
+- Hyrule Castle
+- Great Plateau
+- Boss arenas
+- Favorite viewpoints
+
+---
+
+# Screenshot Mode
+
+![Screenshot Mode](assets/screenshots/camera-modes/screenshot-mode.png)
+
+A dedicated camera mode for capturing Hyrule.
+
+---
+
+# Screenshot Features
+
+Includes:
+
+- HUD removal
+- Camera positioning
+- FOV adjustment
+- Free camera support
+- Camera freeze
+- Presets
+
+---
+
+# Photo Mode Expansion
+
+Future features:
+
+- Time freeze
+- Focus controls
+- Depth of field
+- Cinematic effects
+- Camera filters
+- Screenshot presets
+
+# 11. Creator Ecosystem and Camera Studio
+
+![Camera Studio Banner](assets/banners/roadmap-banner.png)
+
+Better BOTW Camera Overhaul is designed not only as a gameplay enhancement, but as a creator platform.
+
+The project includes plans for external creator tools that expand the possibilities of Breath of the Wild cinematics, screenshots, and video creation.
+
+---
+
+# Better BOTW Camera Studio
+
+![Camera Studio Mockup](assets/mockups/camera-studio/home.png)
+
+## Planned Windows Creator Application
+
+Better BOTW Camera Studio is a planned companion application designed for:
+
+- YouTubers
+- Content creators
+- Cinematic creators
+- Advanced users
+- Mod developers
+
+---
+
+# Purpose
+
+Camera Studio allows creators to create professional camera sequences without manually editing configuration files.
+
+The goal is to provide a dedicated editing environment similar to professional camera and animation tools.
+
+---
+
+# Camera Studio Features
+
+## Timeline Editor
+
+![Timeline Editor Mockup](assets/mockups/camera-studio/timeline-editor.png)
+
+A timeline-based system for creating camera animations.
+
+Example:
+
+00:00
+
+Camera starts behind Link
+
+00:05
+
+Camera slowly rotates around Link
+
+00:10
+
+Camera moves toward Hyrule Castle
+
+00:20
+
+Scene ends
+
+---
+
+# Keyframe System
+
+![Keyframe Editor Mockup](assets/mockups/camera-studio/keyframe-editor.png)
+
+Creators can place camera keyframes.
+
+Each keyframe can control:
+
+- Position
+- Rotation
+- FOV
+- Distance
+- Height
+- Camera effects
+- Transition speed
+
+---
+
+# Camera Paths
+
+Creators can create:
+
+- Straight paths
+- Curved paths
+- Orbit shots
+- Tracking shots
+- Flyovers
+- Cinematic movements
+
+---
+
+# Scene Creation System
+
+Creators can build complete cinematic sequences.
+
+A scene file can contain:
+
+- Camera movement
+- Timing
+- Transitions
+- Effects
+- Triggers
+
+Example:
+
+Hyrule_Castle_Showcase.scene
+
+---
+
+# Camera Studio Export System
+
+![Export Window Mockup](assets/mockups/camera-studio/export-window.png)
+
+Created scenes can be exported into Better BOTW Camera Overhaul formats.
+
+Supported files:
+
+| File | Purpose |
+|---|---|
+| `.scene` | Cinematic scene |
+| `.preset` | Camera preset |
+| `.profile` | Complete camera setup |
+| `.trigger` | Automatic camera events |
+
+---
+
+# Camera Studio Preferences
+
+![Preferences Mockup](assets/mockups/camera-studio/preferences.png)
+
+The application will support customizable options including:
+
+- Interface settings
+- Export settings
+- Preview settings
+- Creator preferences
+
+---
+
+# Creator Workflow
+
+Example:
+
+1. Open Camera Studio.
+2. Create a new scene.
+3. Add camera keyframes.
+4. Adjust movement.
+5. Preview animation.
+6. Export scene.
+7. Load into Breath of the Wild.
+
+---
+
+# 12. Cinematic Systems and Camera Tools
+
+![Cinematic Camera Showcase](assets/screenshots/camera-modes/cinematic.png)
+
+The cinematic system is designed for players and creators who want movie-style camera control.
+
+---
+
+# Cinematic Camera Mode
+
+A specialized camera mode focused on presentation.
+
+Designed for:
+
+- Videos
+- Trailers
+- Screenshots
+- Exploration
+- Machinima
+- Creator projects
+
+---
+
+# Cinematic Camera Features
+
+Includes:
+
+- Smooth movement
+- Camera easing
+- Dynamic FOV
+- Camera interpolation
+- Controlled transitions
+- Custom camera paths
+
+---
+
+# Cinematic Showcase
+
+![Cinematic Showcase Video](assets/videos/showcases/cinematic.mp4)
+
+---
+
+# Camera Interpolation
+
+Interpolation controls how the camera moves between positions.
+
+Options:
+
+| Mode | Description |
+|---|---|
+| Linear | Direct movement |
+| Smooth | Natural movement |
+| Cinematic | Slow professional movement |
+| Custom | User controlled |
+
+---
+
+# Camera Effects
+
+Possible future effects:
+
+- Letterboxing
+- Vignette
+- Depth of field
+- Focus effects
+- Motion blur controls
+- Film-style presentation
+
+---
+
+# Depth of Field System
+
+![Depth of Field Concept](assets/screenshots/comparisons/distance-comparison.png)
+
+Planned cinematic feature.
+
+Allows:
+
+- Focus distance
+- Background blur
+- Foreground blur
+- Cinematic focus transitions
+
+---
+
+# Camera Timeline Language
+
+Better BOTW Camera Overhaul may introduce a dedicated camera scripting format.
+
+Example:
+
+.btws
