@@ -1706,3 +1706,547 @@ Better BOTW Camera Overhaul may introduce a dedicated camera scripting format.
 Example:
 
 .btws
+
+Meaning:
+
+**Breath of the Wild Scene**
+
+---
+
+# Example Camera Script
+
+```json
+{
+  "scene": "HyruleCastle",
+  "camera": [
+    {
+      "time":0,
+      "position":"behind_player"
+    },
+    {
+      "time":10,
+      "movement":"orbit"
+    }
+  ]
+}
+
+13. Camera Triggers and Automation
+
+Camera Triggers allow automatic camera changes based on events.
+
+This system creates dynamic camera behavior.
+
+⸻
+
+Trigger System
+
+A trigger tells the camera system:
+
+“When this happens, change the camera.”
+
+⸻
+
+Trigger Workflow
+
+Example:
+
+Game Event
+
+↓
+
+Trigger Detected
+
+↓
+
+Camera Profile Selected
+
+↓
+
+Camera Changes Automatically
+
+Trigger Examples
+
+Area Triggers
+
+Example:
+
+Player enters Hyrule Castle.
+
+Action:
+
+Activate cinematic camera.
+
+⸻
+
+Movement Triggers
+
+Example:
+
+Player starts gliding.
+
+Action:
+
+Switch to cinematic glider camera.
+
+Combat Triggers
+
+Example:
+
+Enemy encounter begins.
+
+Action:
+
+Activate combat camera profile.
+
+Boss Triggers
+
+Example:
+
+Boss battle starts.
+
+Action:
+
+Enable boss cinematic camera.
+
+⸻
+
+Trigger Types
+
+## Trigger Types
+
+| Trigger Type | Example |
+|---|---|
+| Location | Enter an area |
+| Combat | Enemy detected |
+| Movement | Start climbing |
+| Ability | Use a Rune |
+| Vehicle | Mount a horse |
+| Story Event | Cutscene moment |
+
+Trigger Configuration
+
+Example:
+
+{
+  "trigger": "gliding",
+  "cameraProfile": "Cinematic_Glider"
+}
+
+Community Trigger Sharing
+
+Future possibility:
+
+Users can share:
+
+* Camera triggers
+* Cinematic scenes
+* Presets
+* Showcase videos
+
+⸻
+
+Creator Ecosystem Vision
+
+The long-term goal is to create a complete Breath of the Wild camera ecosystem.
+
+Components:
+
+Better BOTW Camera Overhaul
+
++
+
+Better BOTW Camera Studio
+
++
+
+Community Cinematic Packs
+
++
+
+Shared Camera Presets
+
+The result:
+
+A complete camera framework for players and creators.
+
+14. Configuration System
+
+Better Breath of the Wild (BOTW) Camera Overhaul uses a modular configuration system designed to make camera customization simple for normal users while still providing advanced control for developers, creators, and experienced users.
+
+The configuration system is designed to be:
+
+* Human-readable
+* Easy to edit
+* Shareable
+* Version compatible
+* Expandable
+* Safe against invalid configurations
+
+⸻
+
+Configuration Design Philosophy
+
+The configuration system separates different camera features into individual configuration files.
+
+This allows:
+
+* Easier troubleshooting
+* Smaller updates
+* Better organization
+* Safer customization
+* Improved compatibility between versions
+
+⸻
+
+Configuration Folder Structure
+
+Example:
+
+BetterBOTWCameraOverhaul/
+├── config/
+│
+├── camera.json
+├── controls.json
+├── accessibility.json
+├── profiles.json
+├── advanced.json
+└── version.json
+
+⸻
+
+camera.json
+
+The primary camera configuration file.
+
+Controls:
+
+* Camera distance
+* Camera height
+* Field of View
+* Camera states
+* Rotation settings
+* Smoothing
+* Collision behavior
+* Dynamic camera effects
+
+Example:
+
+{
+  "walking": {
+    "distance": 6.5,
+    "height": 2.1,
+    "fov": 70,
+    "smoothing": true
+  },
+  "gliding": {
+    "distance": 10,
+    "height": 3,
+    "fov": 95
+  }
+}
+
+⸻
+
+controls.json
+
+Stores camera-related controls.
+
+Includes:
+
+* Opening camera menu
+* Free camera controls
+* Profile switching
+* Preview mode
+* Reset controls
+
+Example:
+
+{
+  "open_camera_menu": "L + DPadDown",
+  "free_camera": "L + R3",
+  "restore_camera": "L + DPadUp"
+}
+
+⸻
+
+accessibility.json
+
+Controls comfort-focused camera settings.
+
+Includes:
+
+* Camera shake
+* Motion reduction
+* FOV limits
+* Sensitivity settings
+* Movement adjustments
+
+Example:
+
+{
+  "cameraShake": false,
+  "dynamicFOV": true,
+  "motionReduction": true
+}
+
+⸻
+
+profiles.json
+
+Stores saved camera profiles.
+
+Contains:
+
+* Profile names
+* Camera settings
+* Metadata
+* Version information
+* Compatibility information
+
+Example:
+
+{
+  "profiles": [
+    {
+      "name": "Cinematic Hyrule",
+      "type": "custom"
+    }
+  ]
+}
+
+⸻
+
+advanced.json
+
+Contains expert-level settings.
+
+Designed for:
+
+* Developers
+* Advanced users
+* Testing environments
+
+Includes:
+
+* Debug options
+* Experimental features
+* Advanced interpolation
+* Camera calculations
+* Development tools
+
+⸻
+
+Configuration Safety
+
+The mod includes protection against:
+
+* Invalid values
+* Broken profiles
+* Corrupted settings
+* Missing options
+* Version conflicts
+
+If a configuration file fails validation, the system can:
+
+1. Load safe default values.
+2. Restore a backup configuration.
+3. Notify the user.
+4. Create an error report.
+
+⸻
+
+15. File Formats
+
+Better BOTW Camera Overhaul uses multiple custom file formats.
+
+Each format has a specific purpose within the camera ecosystem.
+
+⸻
+
+Supported File Extensions
+
+Extension	Purpose
+.json	General configuration files
+.profile	Complete camera profiles
+.preset	Shareable camera presets
+.scene	Cinematic sequences
+.trigger	Automatic camera events
+.btws	Breath of the Wild Scene files
+
+⸻
+
+Profile Files
+
+Extension:
+
+.profile
+
+Stores:
+
+* Camera states
+* User preferences
+* Accessibility settings
+* Advanced options
+* Version information
+
+Example:
+
+Cinematic_Hyrule.profile
+
+⸻
+
+Preset Files
+
+Extension:
+
+.preset
+
+Designed for quick sharing.
+
+Examples:
+
+Combat_Master.preset
+Exploration_Cinematic.preset
+Vanilla_Plus.preset
+
+Presets are intended for:
+
+* Community sharing
+* Quick installation
+* Creator workflows
+
+⸻
+
+Scene Files
+
+Extension:
+
+.scene
+
+Used by Better BOTW Camera Studio.
+
+Stores:
+
+* Timeline data
+* Camera paths
+* Keyframes
+* Effects
+* Transitions
+
+Example:
+
+Hyrule_Castle_Showcase.scene
+
+⸻
+
+Trigger Files
+
+Extension:
+
+.trigger
+
+Stores:
+
+* Event conditions
+* Camera changes
+* Automatic behavior
+
+Example:
+
+Boss_Cinematic.trigger
+
+⸻
+
+16. Installation Guide
+
+Supported Platform
+
+Better BOTW Camera Overhaul officially supports:
+
+✅ Nintendo Switch
+
+⸻
+
+Requirements
+
+Before installation, users need:
+
+* A compatible Nintendo Switch setup
+* A supported mod environment
+* The Legend of Zelda: Breath of the Wild
+* Required dependencies listed on the release page
+
+⸻
+
+Installation Overview
+
+The exact installation process may change depending on the final mod framework.
+
+The general process:
+
+1. Download the latest release.
+2. Extract the files.
+3. Copy the mod files to the correct SD card location.
+4. Launch Breath of the Wild.
+5. Open the camera settings menu.
+6. Configure the camera.
+
+⸻
+
+Example Mod Structure
+
+BetterBOTWCameraOverhaul/
+├── config/
+│
+├── content/
+│
+├── ui/
+│
+├── presets/
+│
+├── plugins/
+│
+├── documentation/
+│
+└── README.md
+
+⸻
+
+Installation Safety
+
+Before installing:
+
+Recommended backups:
+
+* Save data
+* Existing mods
+* Previous configurations
+* SD card contents
+
+⸻
+
+Updating The Mod
+
+When updating:
+
+1. Backup current camera profiles.
+2. Remove old files if required.
+3. Install the new version.
+4. Restore profiles.
+5. Verify compatibility.
+
+⸻
+
+Installation Media
+
+Future documentation may include:
+
+Planned resources:
+
+* Video installation guide
+* Step-by-step screenshots
+* Troubleshooting tutorials
+* Beginner documentation
+
+⸻
+
