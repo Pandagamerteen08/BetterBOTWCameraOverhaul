@@ -2250,3 +2250,898 @@ Planned resources:
 
 ⸻
 
+17. Compatibility and Performance
+
+Better Breath of the Wild (BOTW) Camera Overhaul is designed with compatibility and performance as core priorities.
+
+The project focuses on modifying camera behavior while avoiding unnecessary changes to:
+
+* Game assets
+* Textures
+* Models
+* Audio files
+* Save data
+* Gameplay systems
+
+The goal is to provide advanced camera features while maintaining stability.
+
+⸻
+
+Mod Compatibility
+
+Better BOTW Camera Overhaul is designed to work alongside other modifications whenever possible.
+
+However, conflicts may occur with mods that modify:
+
+* Camera behavior
+* Player movement
+* Animations
+* Rendering systems
+* Memory addresses
+* Gameplay frameworks
+
+⸻
+
+Compatibility Table
+
+Type	Compatibility
+Texture Mods	✅ Expected Compatible
+Audio Mods	✅ Expected Compatible
+UI Mods	🟡 Usually Compatible
+Camera Mods	⚠️ Possible Conflict
+Movement Mods	⚠️ Possible Conflict
+Animation Mods	⚠️ Possible Conflict
+Rendering Mods	🧪 Testing Required
+Gameplay Overhauls	🧪 Testing Required
+
+⸻
+
+Compatibility Philosophy
+
+The project follows these principles:
+
+Avoid Unnecessary Conflicts
+
+Better BOTW Camera Overhaul should not interfere with unrelated systems.
+
+The mod focuses primarily on:
+
+* Camera calculations
+* Camera states
+* Camera settings
+* User configuration
+
+⸻
+
+Preserve Modding Flexibility
+
+The framework is designed so other developers can build around it.
+
+Future compatibility goals include:
+
+* Shared camera APIs
+* Documentation for developers
+* Modular systems
+* Community testing
+
+⸻
+
+Performance Philosophy
+
+The mod is designed to have minimal performance impact.
+
+Most camera features are calculated using:
+
+* Runtime values
+* Mathematical calculations
+* Configuration data
+* Camera logic
+
+The project does not require:
+
+* Large textures
+* Additional models
+* Large audio files
+* Heavy graphical changes
+
+⸻
+
+Expected Performance Impact
+
+Feature	Impact
+FOV Changes	Minimal
+Camera Distance	Minimal
+Camera Height	Minimal
+Profiles	Minimal
+Camera Shake Options	Minimal
+Live Preview	Moderate while active
+Free Camera	Depends on enabled features
+Cinematic Tools	Higher usage
+
+⸻
+
+Optimization Goals
+
+The project prioritizes:
+
+* Stability
+* Low memory usage
+* Fast loading
+* Reliable camera transitions
+* Efficient calculations
+
+⸻
+
+Performance Testing
+
+Future testing will include:
+
+* Frame rate comparisons
+* Memory usage analysis
+* Compatibility testing
+* Camera transition benchmarks
+
+Planned documentation:
+
+⸻
+
+<br>
+
+18. Save Safety and Troubleshooting
+
+Better BOTW Camera Overhaul is designed to avoid modifying player progression data.
+
+⸻
+
+Save Safety
+
+The mod does not modify:
+
+* Save files
+* Inventory
+* Quests
+* Player statistics
+* Progression data
+* World state
+
+The project only modifies camera-related behavior and configuration.
+
+⸻
+
+Recommended Backups
+
+Before using any modification, always backup:
+
+* Save files
+* Existing mods
+* Configuration folders
+* SD card contents
+
+⸻
+
+Troubleshooting
+
+Camera Settings Do Not Appear
+
+Possible causes:
+
+* Incorrect installation
+* Missing files
+* Mod loader issue
+* Incorrect folder structure
+
+Solutions:
+
+1. Verify the installation folder structure.
+2. Confirm all required dependencies are installed.
+3. Reinstall the latest version.
+4. Check the error logs.
+
+⸻
+
+Camera Settings Reset
+
+Possible causes:
+
+* Corrupted configuration
+* Failed profile import
+* Invalid values
+* Version mismatch
+
+Solutions:
+
+1. Restore a previous backup.
+2. Reset configuration files.
+3. Import the profile again.
+4. Verify compatibility.
+
+⸻
+
+Camera Behaves Incorrectly
+
+Try:
+
+1. Open camera settings.
+2. Select:
+
+Restore Vanilla Defaults
+
+3. Restart the game.
+4. Reapply settings.
+
+⸻
+
+Imported Profile Does Not Work
+
+Possible causes:
+
+* Different mod version
+* Missing settings
+* Invalid file format
+* Unsupported feature
+
+Solutions:
+
+* Update the mod.
+* Export the profile again.
+* Use a compatible preset.
+* Check the profile version.
+
+⸻
+
+Reporting Issues
+
+When creating a bug report, include:
+
+Mod Version:
+Game Version:
+Platform:
+Installed Mods:
+Description:
+Steps To Reproduce:
+Expected Behavior:
+Actual Behavior:
+Screenshots:
+Logs:
+
+⸻
+
+Feature Requests
+
+For new feature suggestions, include:
+
+Feature:
+Purpose:
+How It Should Work:
+Possible Problems:
+Additional Information:
+
+Good feature requests help improve the project roadmap.
+
+⸻
+
+<br>
+
+19. Developer Documentation
+
+This section is intended for:
+
+* Developers
+* Contributors
+* Advanced users
+* Researchers
+* Mod creators
+
+The project is designed as a modular camera framework rather than a collection of individual camera edits.
+
+⸻
+
+Development Philosophy
+
+Better BOTW Camera Overhaul follows several core principles.
+
+⸻
+
+Modular Design
+
+Each major system is separated.
+
+Examples:
+
+* Camera Core
+* Camera States
+* Configuration System
+* Profile System
+* User Interface
+* Preview System
+* Creator Tools
+
+This allows individual systems to improve without rewriting the entire project.
+
+⸻
+
+User Customization First
+
+Almost every camera behavior should be configurable.
+
+Developers should avoid hardcoded values whenever possible.
+
+Example:
+
+Incorrect:
+
+CameraDistance = 8;
+
+Preferred:
+
+CameraDistance = UserSettings.CameraDistance;
+
+⸻
+
+Preserve Vanilla Behavior
+
+The default configuration should always respect Breath of the Wild’s original camera design.
+
+New features should:
+
+* Enhance the experience
+* Remain optional
+* Avoid changing gameplay identity
+
+The goal is:
+
+Better, not different.
+
+⸻
+
+Developer Documentation Areas
+
+Future documentation will include:
+
+* Camera memory addresses
+* Camera calculations
+* State switching logic
+* Configuration handling
+* Profile structure
+* Debugging tools
+* Testing procedures
+* Reverse engineering notes
+
+⸻
+
+Developer Tools
+
+Future developer tools may include:
+
+* Camera debugging overlay
+* Live camera values
+* Memory inspection tools
+* Profile validation tools
+* Automated testing tools
+
+⸻
+
+Contribution Areas
+
+Developers interested in contributing may work on:
+
+* Camera systems
+* UI systems
+* Configuration tools
+* Documentation
+* Testing frameworks
+* Creator tools
+
+⸻
+
+Developer Resources
+
+Planned resources:
+
+Includes:
+
+* Technical documentation
+* Architecture diagrams
+* API references
+* Development guides
+
+⸻
+
+20. Technical Architecture
+
+Better Breath of the Wild (BOTW) Camera Overhaul is built around a layered and modular architecture.
+
+The purpose of this design is to create a flexible camera framework that can support:
+
+* Gameplay camera improvements
+* Advanced camera modes
+* Creator tools
+* Accessibility features
+* Community extensions
+
+The system separates camera functionality into independent components.
+
+⸻
+
+System Overview
+
+BetterBOTWCameraOverhaul
+│
+├── Camera Core
+│
+├── Camera State Manager
+│
+├── Configuration Manager
+│
+├── Profile Manager
+│
+├── Preview Engine
+│
+├── Input Handler
+│
+├── UI Framework
+│
+├── Accessibility System
+│
+└── Creator Tools Interface
+
+⸻
+
+Camera Core
+
+The Camera Core is the foundation of the entire project.
+
+It manages:
+
+* Camera position
+* Camera rotation
+* Field of View
+* Camera distance
+* Camera collision
+* Camera transitions
+* Camera interpolation
+
+Every camera-related system communicates through the Camera Core.
+
+⸻
+
+Camera State Manager
+
+Breath of the Wild uses different camera behaviors depending on gameplay situations.
+
+Better BOTW Camera Overhaul expands this concept into independent camera states.
+
+Example:
+
+Exploration Camera
+        ↓
+Combat Camera
+        ↓
+Aiming Camera
+        ↓
+Gliding Camera
+        ↓
+Climbing Camera
+
+Each camera state contains:
+
+* Individual settings
+* Unique behavior
+* Custom transitions
+* Independent effects
+
+⸻
+
+Configuration Manager
+
+The Configuration Manager handles all user settings.
+
+Responsibilities:
+
+* Loading configurations
+* Saving changes
+* Validating values
+* Applying settings in real time
+* Creating backups
+* Managing version compatibility
+
+⸻
+
+Profile Manager
+
+The Profile Manager handles camera presets and user profiles.
+
+Functions:
+
+* Create profiles
+* Load profiles
+* Save profiles
+* Import profiles
+* Export profiles
+* Backup profiles
+
+⸻
+
+Preview Engine
+
+The Preview Engine allows users to modify camera settings instantly.
+
+Workflow:
+
+User Changes Setting
+↓
+Configuration Manager Updates Value
+↓
+Camera Core Receives Update
+↓
+Camera Changes Immediately
+↓
+User Saves Or Discards
+
+⸻
+
+Input Handler
+
+The Input Handler controls:
+
+* Camera menu shortcuts
+* Free camera controls
+* Profile switching
+* Preview controls
+* Camera mode switching
+
+⸻
+
+UI Framework
+
+The UI Framework manages:
+
+* Settings menus
+* Camera configuration pages
+* Profile management
+* Notifications
+* Creator tools interface
+
+⸻
+
+Accessibility System
+
+The Accessibility System manages comfort-focused features.
+
+Includes:
+
+* Camera shake reduction
+* Motion reduction
+* Sensitivity controls
+* FOV adjustments
+* Movement smoothing
+
+⸻
+
+Creator Tools Interface
+
+The Creator Tools Interface connects the game mod with future external tools.
+
+Planned systems:
+
+* Camera Studio
+* Timeline Editor
+* Scene Export
+* Camera Path Creation
+
+⸻
+
+<br>
+
+21. Repository Structure
+
+The GitHub repository is organized to make development, documentation, and collaboration easier.
+
+Example:
+
+BetterBOTWCameraOverhaul/
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── INSTALLATION.md
+├── ROADMAP.md
+│
+├── src/
+│   ├── camera/
+│   ├── config/
+│   ├── profiles/
+│   ├── ui/
+│   ├── input/
+│   └── systems/
+│
+├── config/
+│   ├── default/
+│   └── examples/
+│
+├── presets/
+│   ├── vanilla/
+│   ├── cinematic/
+│   ├── combat/
+│   └── accessibility/
+│
+├── documentation/
+│   ├── developer/
+│   ├── user/
+│   └── technical/
+│
+├── tools/
+│   └── CameraStudio/
+│
+├── tests/
+│
+└── releases/
+
+⸻
+
+Folder Explanation
+
+src/
+
+Contains the primary project source code.
+
+⸻
+
+camera/
+
+Contains camera-related systems.
+
+Includes:
+
+* Camera movement
+* Camera states
+* Camera calculations
+* Camera transitions
+
+⸻
+
+config/
+
+Handles configuration systems.
+
+Includes:
+
+* Loading
+* Saving
+* Validation
+* Default settings
+
+⸻
+
+profiles/
+
+Contains profile management.
+
+Includes:
+
+* Import
+* Export
+* Backup
+* Profile validation
+
+⸻
+
+ui/
+
+Contains user interface systems.
+
+Includes:
+
+* Menus
+* Settings screens
+* Notifications
+* Camera controls
+
+⸻
+
+presets/
+
+Contains official and community camera presets.
+
+Examples:
+
+* Vanilla+
+* Cinematic
+* Combat
+* Accessibility
+
+⸻
+
+documentation/
+
+Contains all project documentation.
+
+Structure:
+
+documentation/
+├── developer/
+├── user/
+└── technical/
+
+⸻
+
+tools/
+
+Contains external applications.
+
+Example:
+
+BetterBOTWCameraStudio
+
+⸻
+
+tests/
+
+Contains testing resources.
+
+Includes:
+
+* Compatibility tests
+* Camera tests
+* Configuration tests
+
+⸻
+
+releases/
+
+Contains release-related files.
+
+Includes:
+
+* Version packages
+* Release notes
+* Distribution files
+
+⸻
+
+<br>
+
+22. Contribution Guidelines
+
+Better Breath of the Wild (BOTW) Camera Overhaul welcomes contributions from:
+
+* Developers
+* Testers
+* Documentation writers
+* Translators
+* Content creators
+* Camera preset creators
+
+The goal is to build a community-driven camera framework.
+
+⸻
+
+Ways To Contribute
+
+Code Contributions
+
+Examples:
+
+* Camera improvements
+* Performance improvements
+* Bug fixes
+* New systems
+* Optimization
+
+⸻
+
+Testing Contributions
+
+Help test:
+
+* New releases
+* Camera behavior
+* Performance
+* Compatibility
+
+⸻
+
+Documentation Contributions
+
+Help improve:
+
+* User guides
+* Developer documentation
+* Tutorials
+* Technical references
+
+⸻
+
+Preset Contributions
+
+Create and share:
+
+* Camera profiles
+* Cinematic setups
+* Accessibility configurations
+* Gameplay presets
+
+⸻
+
+Translation Contributions
+
+Help support additional languages.
+
+Planned languages:
+
+* English
+* Japanese
+* Spanish
+* French
+* German
+* Italian
+* Portuguese
+* Korean
+* Chinese
+
+⸻
+
+Contribution Rules
+
+Before contributing:
+
+1. Read the documentation.
+2. Check existing issues.
+3. Explain your changes.
+4. Test your changes.
+5. Follow project standards.
+
+⸻
+
+Pull Request Guidelines
+
+A good pull request should include:
+
+* Clear title
+* Description of changes
+* Testing information
+* Screenshots if applicable
+* Related issue numbers
+
+⸻
+
+Issue Guidelines
+
+Bug reports should include:
+
+Version:
+Game Version:
+Platform:
+Installed Mods:
+Description:
+Steps To Reproduce:
+Expected Result:
+Actual Result:
+Logs:
+
+⸻
+
+Feature Request Guidelines
+
+Feature requests should include:
+
+Feature:
+Purpose:
+How It Should Work:
+Possible Problems:
+Additional Information:
+
+⸻
+
+Community Standards
+
+All contributors should:
+
+* Respect other developers
+* Provide constructive feedback
+* Keep discussions focused
+* Help maintain a welcoming community
+
+⸻
+
