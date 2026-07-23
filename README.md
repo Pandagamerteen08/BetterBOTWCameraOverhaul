@@ -3145,3 +3145,982 @@ All contributors should:
 
 ⸻
 
+23. Roadmap
+
+The Better Breath of the Wild (BOTW) Camera Overhaul roadmap represents planned development goals, milestones, and future improvements.
+
+Development priorities may change based on:
+
+* Technical limitations
+* Community feedback
+* Testing results
+* Research discoveries
+* Development resources
+
+The roadmap is designed to show the long-term vision of the project.
+
+⸻
+
+Development Phases
+
+⸻
+
+Phase 1
+
+Core Camera Framework
+
+Status:
+
+🚧 In Development
+
+Goals:
+
+* Camera control system
+* Basic camera framework
+* Vanilla camera preservation
+* Core camera states
+* Initial configuration system
+
+Planned systems:
+
+* Camera Core
+* Camera State Manager
+* Basic settings
+* Internal testing tools
+
+⸻
+
+Phase 2
+
+Camera Customization
+
+Status:
+
+📅 Planned
+
+Goals:
+
+* FOV adjustment
+* Camera distance control
+* Camera height adjustment
+* Camera smoothing
+* Camera offsets
+* Camera profiles
+
+Features:
+
+* Custom camera states
+* Saveable configurations
+* User presets
+
+⸻
+
+Phase 3
+
+Accessibility Update
+
+Status:
+
+📅 Planned
+
+Goals:
+
+* Camera shake removal
+* Motion reduction
+* Comfort settings
+* Sensitivity controls
+* Accessibility presets
+
+Focus:
+
+Making Breath of the Wild more comfortable for more players.
+
+⸻
+
+Phase 4
+
+Advanced Camera Modes
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+* First-person mode
+* Free camera
+* Over-the-shoulder camera
+* Screenshot mode
+* Cinematic camera
+
+⸻
+
+Phase 5
+
+Creator Tools
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+* Better BOTW Camera Studio
+* Timeline editor
+* Camera paths
+* Cinematic scenes
+* Scene exporting
+
+⸻
+
+Phase 6
+
+Community Ecosystem
+
+Status:
+
+💡 Future Idea
+
+Goals:
+
+* Preset sharing
+* Community hub
+* Creator showcases
+* Camera libraries
+* Community tutorials
+
+⸻
+
+Wii U Support Roadmap Note
+
+Current official support:
+
+Platform	Status
+Nintendo Switch	✅ Supported
+Wii U	❌ Not Supported
+
+⸻
+
+Wii U support may be added in the future.
+
+The project owner, Pandagamerteen8, plans to consider Wii U development after obtaining another Wii U console and creating a proper testing environment.
+
+Future Wii U development may include:
+
+* Compatibility research
+* Platform-specific adjustments
+* Separate testing
+* Dedicated release support
+
+⸻
+
+<br>
+
+24. Release System and Versioning
+
+Better BOTW Camera Overhaul uses a structured release system to communicate development progress and stability.
+
+The project follows a staged release process.
+
+⸻
+
+Release Stages
+
+Stage	Meaning
+Pre-Release	Early public testing. Features may be incomplete.
+Alpha	Core systems exist but major changes are expected.
+Beta	Feature complete testing phase focused on stability.
+Release Candidate (RC)	Final testing before stable release.
+Stable	Recommended public release.
+
+⸻
+
+Version Numbering
+
+The project follows:
+
+Major.Minor.Patch
+
+Example:
+
+1.4.2
+
+⸻
+
+Version Table
+
+Number	Meaning
+Major	Large changes, redesigns, breaking changes
+Minor	New features and improvements
+Patch	Bug fixes and small adjustments
+
+⸻
+
+Example Releases
+
+0.1.0
+
+Initial development release.
+
+Includes:
+
+* Basic camera framework
+* Early configuration
+* Testing tools
+
+⸻
+
+0.5.0
+
+Feature preview release.
+
+Includes:
+
+* Camera states
+* Profiles
+* Accessibility options
+* Improved configuration
+
+⸻
+
+1.0.0
+
+First stable release.
+
+Includes:
+
+* Complete camera overhaul
+* Full settings system
+* Stable profiles
+* Documentation
+* Creator foundations
+
+⸻
+
+Release Notes
+
+Every release should include:
+
+* Added features
+* Fixed bugs
+* Changed systems
+* Known issues
+* Compatibility notes
+
+Example:
+
+Version 1.2.0
+Added:
+* First person camera
+* New profile system
+* Camera preview tools
+Fixed:
+* Camera reset bug
+* Profile loading issue
+Changed:
+* Improved smoothing system
+
+⸻
+
+<br>
+
+25. Project Header and Badges
+
+The top of the repository README provides quick information about the current state of Better Breath of the Wild (BOTW) Camera Overhaul.
+
+⸻
+
+Better Breath of the Wild (BOTW) Camera Overhaul
+
+The camera Nintendo built, refined without limits.
+
+⸻
+
+Project Information
+
+⸻
+
+Roadmap Status
+
+⸻
+
+Technical Badges
+
+⸻
+
+Creator Tools
+
+⸻
+
+26. Credits and Acknowledgements
+
+Better Breath of the Wild (BOTW) Camera Overhaul exists because of the work, research, creativity, and dedication of many communities and developers.
+
+This project is a fan-made enhancement created to expand the possibilities of Breath of the Wild’s camera system while respecting the original design.
+
+⸻
+
+Development Team
+
+Lead Developer
+
+Pandagamerteen8
+
+Project owner and creator.
+
+Responsible for:
+
+* Project direction
+* Feature planning
+* Development decisions
+* System design
+* Future platform expansion
+* Community coordination
+
+⸻
+
+Special Thanks
+
+Breath of the Wild Modding Community
+
+Special thanks to the Breath of the Wild modding community for continuing to research, document, and expand what is possible with game modifications.
+
+The community has contributed to:
+
+* Reverse engineering research
+* Modding tools
+* Documentation
+* Technical discoveries
+* Development resources
+
+Without the work of the community, projects like this would not be possible.
+
+⸻
+
+Nintendo
+
+Thank you to Nintendo for creating:
+
+* The Legend of Zelda: Breath of the Wild
+* Hyrule’s world design
+* The original camera system that inspired this project
+
+This project is intended as a fan-made enhancement.
+
+Better BOTW Camera Overhaul is:
+
+* Not affiliated with Nintendo
+* Not endorsed by Nintendo
+* Not an official Nintendo product
+
+⸻
+
+Open Source Community
+
+Special appreciation for developers creating:
+
+* Modding tools
+* Documentation
+* Reverse engineering research
+* Programming resources
+* Development libraries
+
+⸻
+
+Community Contributors
+
+Future contributors will be listed here.
+
+Contribution categories:
+
+* Developers
+* Testers
+* Translators
+* Preset creators
+* Documentation contributors
+* Content creators
+
+⸻
+
+<br>
+
+27. Frequently Asked Questions
+
+This section answers common questions about Better Breath of the Wild (BOTW) Camera Overhaul.
+
+⸻
+
+What is Better BOTW Camera Overhaul?
+
+Better Breath of the Wild (BOTW) Camera Overhaul is a complete camera enhancement framework for The Legend of Zelda: Breath of the Wild.
+
+The goal is to improve camera customization while preserving the original feeling of Nintendo’s camera design.
+
+⸻
+
+Does this replace the original Breath of the Wild camera?
+
+No.
+
+The project is designed as an enhancement.
+
+The default configuration aims to feel like the original game while adding:
+
+* More control
+* More customization
+* More accessibility options
+* More creator tools
+
+⸻
+
+Can I restore the original camera?
+
+Yes.
+
+The mod includes:
+
+Restore Vanilla Defaults
+
+This restores:
+
+* Camera distance
+* Camera height
+* FOV
+* Smoothing
+* Camera shake settings
+* Advanced options
+
+Before resetting, the user receives confirmation:
+
+Are you sure you want to restore all camera settings to the vanilla default?
+
+⸻
+
+Can I disable camera shake?
+
+Yes.
+
+Camera shake can be configured:
+
+Mode	Description
+Vanilla	Original Nintendo behavior
+Reduced	Lower intensity
+Minimal	Small cinematic movement
+Disabled	Completely removed
+Custom	User-defined values
+
+⸻
+
+Does this add first-person mode?
+
+Yes.
+
+First-person mode is planned as an advanced camera option.
+
+⸻
+
+Does this include free camera?
+
+Yes.
+
+Free camera is planned for:
+
+* Photography
+* Exploration
+* Cinematics
+* Content creation
+
+⸻
+
+Can I create YouTube videos with this?
+
+Yes.
+
+The planned Better BOTW Camera Studio application is designed for:
+
+* Cinematic scenes
+* Trailers
+* Showcase videos
+* Machinima-style content
+
+⸻
+
+Will this affect my save file?
+
+No.
+
+The project does not modify:
+
+* Save data
+* Inventory
+* Quests
+* Progression
+
+However, backups are always recommended.
+
+⸻
+
+Will this work with other mods?
+
+Compatibility depends on what other modifications change.
+
+Possible conflicts:
+
+* Other camera mods
+* Movement modifications
+* Animation modifications
+* Rendering modifications
+
+⸻
+
+Will there be Wii U support?
+
+Current support:
+
+Platform	Status
+Nintendo Switch	✅ Supported
+Wii U	❌ Not Supported
+
+Future Wii U support may be developed after the required testing environment is created.
+
+⸻
+
+<br>
+
+28. Community Ecosystem
+
+Better BOTW Camera Overhaul is designed to grow beyond a single modification.
+
+The long-term goal is to create a complete camera ecosystem for players, creators, and developers.
+
+⸻
+
+Better BOTW Camera Hub
+
+Future community platform.
+
+Potential features:
+
+* Preset sharing
+* Camera profile downloads
+* Creator showcases
+* Tutorials
+* Community ratings
+* Featured projects
+
+⸻
+
+Community Presets
+
+Users will be able to create and share:
+
+* Exploration cameras
+* Combat cameras
+* Cinematic setups
+* Accessibility profiles
+* First-person configurations
+
+Example:
+
+CommunityPresets/
+├── Cinematic_Hyrule.profile
+├── Hardcore_Combat.profile
+├── FirstPerson_Adventure.profile
+└── VanillaPlus.profile
+
+⸻
+
+Creator Showcase
+
+A future area for showcasing:
+
+* YouTube videos
+* Screenshots
+* Cinematic projects
+* Camera demonstrations
+* Community creations
+
+⸻
+
+Community Requests
+
+Future features may be influenced by:
+
+* User feedback
+* Feature requests
+* Creator suggestions
+* Testing results
+
+The goal is to build a project shaped by the community.
+
+⸻
+
+Community Contribution Vision
+
+The future ecosystem may include:
+
+Better BOTW Camera Overhaul
+        +
+Better BOTW Camera Studio
+        +
+Community Cinematic Packs
+        +
+Shared Camera Presets
+        +
+Creator Showcase Platform
+
+The result:
+
+A complete camera framework built for players and creators.
+
+⸻
+
+29. Media Gallery and Project Showcase
+
+The Better Breath of the Wild (BOTW) Camera Overhaul project uses a structured media system to showcase features, development progress, documentation, and community creations.
+
+All project media is organized inside the assets/ directory.
+
+The goal of this system is to make the repository easier to navigate while providing clear visual documentation for players, developers, and contributors.
+
+⸻
+
+Media Directory Overview
+
+assets/
+├── banners/
+├── screenshots/
+├── videos/
+├── gifs/
+├── diagrams/
+├── mockups/
+├── logos/
+├── icons/
+└── placeholders/
+
+⸻
+
+Banner Assets
+
+Banner images are used for repository presentation, social previews, documentation headers, and project announcements.
+
+Location:
+
+assets/banners/
+
+⸻
+
+GitHub Repository Banners
+
+Available banners:
+
+File	Purpose
+github-banner.png	Main repository banner
+github-banner-dark.png	Dark theme GitHub banner
+github-banner-light.png	Light theme GitHub banner
+social-preview.png	GitHub social preview image
+footer-banner.png	Documentation footer image
+roadmap-banner.png	Roadmap section banner
+
+⸻
+
+Screenshot Documentation
+
+Screenshots provide visual demonstrations of Better BOTW Camera Overhaul features.
+
+Location:
+
+assets/screenshots/
+
+⸻
+
+Gameplay Screenshots
+
+Location:
+
+assets/screenshots/gameplay/
+
+Used to demonstrate camera behavior during normal gameplay.
+
+Included screenshots:
+
+File	Description
+exploration.png	Exploration camera showcase
+combat.png	Combat camera showcase
+gliding.png	Glider camera showcase
+climbing.png	Climbing camera showcase
+horse-riding.png	Horse riding camera showcase
+swimming.png	Swimming camera showcase
+bow-aiming.png	Bow aiming camera showcase
+shield-surfing.png	Shield surfing camera showcase
+
+⸻
+
+Camera Mode Screenshots
+
+Location:
+
+assets/screenshots/camera-modes/
+
+Shows different available camera experiences.
+
+File	Description
+vanilla.png	Original Nintendo camera
+first-person.png	First-person camera mode
+cinematic.png	Cinematic camera mode
+free-camera.png	Free camera system
+over-the-shoulder.png	Shoulder camera mode
+screenshot-mode.png	Screenshot and photography mode
+
+⸻
+
+User Interface Screenshots
+
+Location:
+
+assets/screenshots/ui/
+
+Used to document menus and configuration systems.
+
+File	Description
+main-menu.png	Main camera menu
+settings-page.png	Camera settings interface
+profiles.png	Profile management system
+accessibility.png	Accessibility options
+camera-preview.png	Live preview system
+restore-defaults.png	Restore vanilla settings
+
+⸻
+
+Camera Comparison Screenshots
+
+Location:
+
+assets/screenshots/comparisons/
+
+Used for before-and-after comparisons.
+
+File	Description
+vanilla-vs-overhaul.png	Original camera vs modified camera
+fov-comparison.png	Field of View comparison
+distance-comparison.png	Camera distance comparison
+shake-comparison.png	Camera shake comparison
+first-person-comparison.png	First-person comparison
+
+⸻
+
+Placeholder Media
+
+Temporary assets are stored until final artwork or screenshots are available.
+
+Location:
+
+assets/screenshots/placeholders/
+
+Files:
+
+screenshot-placeholder.png
+ui-placeholder.png
+comparison-placeholder.png
+
+⸻
+
+30. Video Documentation System
+
+Videos are used for demonstrations, tutorials, trailers, and development showcases.
+
+Location:
+
+assets/videos/
+
+⸻
+
+Trailer Videos
+
+Location:
+
+assets/videos/trailers/
+
+Used for major project announcements.
+
+File	Purpose
+teaser.mp4	Early project teaser
+reveal.mp4	Feature reveal video
+release-trailer.mp4	Official release trailer
+
+⸻
+
+Feature Showcase Videos
+
+Location:
+
+assets/videos/showcases/
+
+Demonstrates major systems.
+
+File	Purpose
+first-person.mp4	First-person camera showcase
+free-camera.mp4	Free camera showcase
+cinematic.mp4	Cinematic camera showcase
+camera-studio.mp4	Camera Studio showcase
+accessibility.mp4	Accessibility features
+
+⸻
+
+Tutorial Videos
+
+Location:
+
+assets/videos/tutorials/
+
+Educational videos for users.
+
+File	Purpose
+installation.mp4	Installation tutorial
+profiles.mp4	Profile management tutorial
+presets.mp4	Preset usage tutorial
+configuration.mp4	Configuration tutorial
+
+⸻
+
+Placeholder Videos
+
+Location:
+
+assets/videos/placeholders/
+
+Temporary video files.
+
+trailer-coming-soon.mp4
+
+⸻
+
+33. Animated Documentation and GIF Showcase
+
+Animated GIFs are used for quick demonstrations inside documentation.
+
+Location:
+
+assets/gifs/
+
+⸻
+
+Gameplay GIFs
+
+Location:
+
+assets/gifs/gameplay/
+
+Examples:
+
+File	Description
+walking.gif	Walking camera movement
+combat.gif	Combat camera behavior
+gliding.gif	Gliding camera transition
+climbing.gif	Climbing camera behavior
+horse.gif	Horse camera behavior
+
+⸻
+
+UI Animation GIFs
+
+Location:
+
+assets/gifs/ui/
+
+Examples:
+
+File	Description
+settings.gif	Settings menu demonstration
+live-preview.gif	Live camera preview
+profile-switching.gif	Profile switching
+import-export.gif	Profile import/export
+
+⸻
+
+Camera System GIFs
+
+Location:
+
+assets/gifs/camera/
+
+Examples:
+
+File	Description
+fov.gif	FOV adjustment
+shake.gif	Camera shake settings
+smoothing.gif	Camera smoothing
+transitions.gif	Camera transitions
+interpolation.gif	Camera interpolation
+
+⸻
+
+Media Usage Guidelines
+
+All project media should follow these principles:
+
+Clear Documentation
+
+Images and videos should clearly demonstrate the feature being shown.
+
+⸻
+
+Accurate Representation
+
+Media should represent the current project state.
+
+Planned features should be labeled as:
+
+* Concept
+* Mockup
+* Prototype
+* Planned
+
+⸻
+
+Consistent Naming
+
+Files should use lowercase names with hyphens.
+
+Example:
+
+first-person-camera.png
+
+Not:
+
+FirstPersonCameraFinalVersion2.PNG
+
+⸻
+
+Organization
+
+Media should always be placed into the correct category.
+
+Examples:
+
+Gameplay footage:
+
+assets/screenshots/gameplay/
+
+Architecture diagrams:
+
+assets/diagrams/architecture/
+
+Application mockups:
+
+assets/mockups/
+
+⸻
+
+Purpose of the Media System
+
+The media system exists to support:
+
+* User documentation
+* Developer documentation
+* GitHub presentation
+* Community sharing
+* Feature demonstrations
+* Project announcements
+
+A well-organized visual system helps make Better BOTW Camera Overhaul easier to understand and easier to contribute to.
