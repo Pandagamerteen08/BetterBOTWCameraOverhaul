@@ -14,7 +14,7 @@
   <img src="assets/screenshots/placeholders/screenshot-placeholder.png" alt="Project Screenshot Placeholder">
 </p>
 
-> **NOTE: Most images are placeholders and will be replaced with the permanent ones in the near future
+> **NOTE: Most images are placeholders and will be replaced with the permanent ones in the near future!**
 
 ---
 
